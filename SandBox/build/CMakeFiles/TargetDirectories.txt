@@ -1,0 +1,3 @@
+/home/kelly/SandBox/build/CMakeFiles/SandBox.dir
+/home/kelly/SandBox/build/CMakeFiles/edit_cache.dir
+/home/kelly/SandBox/build/CMakeFiles/rebuild_cache.dir

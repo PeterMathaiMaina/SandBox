@@ -1,0 +1,8 @@
+# .clangd
+Diagnostics:
+  UnusedIncludes: None
+  # This stops clangd from suggesting you add headers you missed
+  MissingIncludes: None
+
+  # Optional: Silence specific warning codes
+  Suppress: ["unused-includes", "missing-include"]
