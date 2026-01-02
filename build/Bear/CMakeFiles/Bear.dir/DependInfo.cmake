@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kelly/SandBox/Bear/scr/Engine.cpp" "Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o.d"
+  "/home/kelly/SandBox/Bear/scr/Utils/Log.cpp" "Bear/CMakeFiles/Bear.dir/scr/Utils/Log.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Utils/Log.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,7 +1,61 @@
 [
 {
+  "directory": "/home/kelly/SandBox/build/Bear",
+  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Utils/Log.cpp.o -c /home/kelly/SandBox/Bear/scr/Utils/Log.cpp",
+  "file": "/home/kelly/SandBox/Bear/scr/Utils/Log.cpp",
+  "output": "Bear/CMakeFiles/Bear.dir/scr/Utils/Log.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear",
+  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Engine.cpp.o -c /home/kelly/SandBox/Bear/scr/Engine.cpp",
+  "file": "/home/kelly/SandBox/Bear/scr/Engine.cpp",
+  "output": "Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear/vendor/spdlog",
+  "command": "/usr/bin/c++ -DFMT_LIB_EXPORT -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=c++17 -fPIC -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/kelly/SandBox/Bear/vendor/spdlog/src/spdlog.cpp",
+  "file": "/home/kelly/SandBox/Bear/vendor/spdlog/src/spdlog.cpp",
+  "output": "Bear/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear/vendor/spdlog",
+  "command": "/usr/bin/c++ -DFMT_LIB_EXPORT -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=c++17 -fPIC -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/kelly/SandBox/Bear/vendor/spdlog/src/stdout_sinks.cpp",
+  "file": "/home/kelly/SandBox/Bear/vendor/spdlog/src/stdout_sinks.cpp",
+  "output": "Bear/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear/vendor/spdlog",
+  "command": "/usr/bin/c++ -DFMT_LIB_EXPORT -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=c++17 -fPIC -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/kelly/SandBox/Bear/vendor/spdlog/src/color_sinks.cpp",
+  "file": "/home/kelly/SandBox/Bear/vendor/spdlog/src/color_sinks.cpp",
+  "output": "Bear/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear/vendor/spdlog",
+  "command": "/usr/bin/c++ -DFMT_LIB_EXPORT -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=c++17 -fPIC -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/kelly/SandBox/Bear/vendor/spdlog/src/file_sinks.cpp",
+  "file": "/home/kelly/SandBox/Bear/vendor/spdlog/src/file_sinks.cpp",
+  "output": "Bear/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear/vendor/spdlog",
+  "command": "/usr/bin/c++ -DFMT_LIB_EXPORT -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=c++17 -fPIC -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/kelly/SandBox/Bear/vendor/spdlog/src/async.cpp",
+  "file": "/home/kelly/SandBox/Bear/vendor/spdlog/src/async.cpp",
+  "output": "Bear/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear/vendor/spdlog",
+  "command": "/usr/bin/c++ -DFMT_LIB_EXPORT -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=c++17 -fPIC -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/kelly/SandBox/Bear/vendor/spdlog/src/cfg.cpp",
+  "file": "/home/kelly/SandBox/Bear/vendor/spdlog/src/cfg.cpp",
+  "output": "Bear/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear/vendor/spdlog",
+  "command": "/usr/bin/c++ -DFMT_LIB_EXPORT -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=c++17 -fPIC -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/kelly/SandBox/Bear/vendor/spdlog/src/bundled_fmtlib_format.cpp",
+  "file": "/home/kelly/SandBox/Bear/vendor/spdlog/src/bundled_fmtlib_format.cpp",
+  "output": "Bear/vendor/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o"
+},
+{
   "directory": "/home/kelly/SandBox/build/SandBox",
-  "command": "/usr/bin/c++  -I/home/kelly/SandBox/SandBox/../Bear/Include -I/home/kelly/SandBox/SandBox/Include -std=gnu++20 -o CMakeFiles/SandBox.dir/scr/Application.cpp.o -c /home/kelly/SandBox/SandBox/scr/Application.cpp",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/SandBox/../Bear/Include -I/home/kelly/SandBox/SandBox/Include -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++20 -o CMakeFiles/SandBox.dir/scr/Application.cpp.o -c /home/kelly/SandBox/SandBox/scr/Application.cpp",
   "file": "/home/kelly/SandBox/SandBox/scr/Application.cpp",
   "output": "SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o"
 }

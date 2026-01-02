@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/kelly/SandBox/Bear/CMakeLists.txt"
+  "/home/kelly/SandBox/Bear/vendor/spdlog/CMakeLists.txt"
+  "/home/kelly/SandBox/Bear/vendor/spdlog/cmake/ide.cmake"
+  "/home/kelly/SandBox/Bear/vendor/spdlog/cmake/utils.cmake"
   "/home/kelly/SandBox/CMakeLists.txt"
   "/home/kelly/SandBox/SandBox/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
@@ -25,6 +28,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake"
+  "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake"
+  "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake"
+  "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
@@ -33,6 +40,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake"
   "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.28/Modules/FindThreads.cmake"
+  "/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake"
+  "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake"
@@ -54,11 +64,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Bear/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Bear/vendor/spdlog/CMakeFiles/CMakeDirectoryInformation.cmake"
   "SandBox/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "Bear/CMakeFiles/Bear.dir/DependInfo.cmake"
+  "Bear/vendor/spdlog/CMakeFiles/spdlog.dir/DependInfo.cmake"
   "SandBox/CMakeFiles/SandBox.dir/DependInfo.cmake"
   )

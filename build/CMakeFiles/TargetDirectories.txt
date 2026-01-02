@@ -3,6 +3,9 @@
 /home/kelly/SandBox/build/Bear/CMakeFiles/Bear.dir
 /home/kelly/SandBox/build/Bear/CMakeFiles/edit_cache.dir
 /home/kelly/SandBox/build/Bear/CMakeFiles/rebuild_cache.dir
+/home/kelly/SandBox/build/Bear/vendor/spdlog/CMakeFiles/spdlog.dir
+/home/kelly/SandBox/build/Bear/vendor/spdlog/CMakeFiles/edit_cache.dir
+/home/kelly/SandBox/build/Bear/vendor/spdlog/CMakeFiles/rebuild_cache.dir
 /home/kelly/SandBox/build/SandBox/CMakeFiles/SandBox.dir
 /home/kelly/SandBox/build/SandBox/CMakeFiles/edit_cache.dir
 /home/kelly/SandBox/build/SandBox/CMakeFiles/rebuild_cache.dir

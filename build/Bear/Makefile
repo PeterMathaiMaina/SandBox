@@ -154,6 +154,30 @@ scr/Engine.cpp.s:
 	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.s
 .PHONY : scr/Engine.cpp.s
 
+scr/Utils/Log.o: scr/Utils/Log.cpp.o
+.PHONY : scr/Utils/Log.o
+
+# target to build an object file
+scr/Utils/Log.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Utils/Log.cpp.o
+.PHONY : scr/Utils/Log.cpp.o
+
+scr/Utils/Log.i: scr/Utils/Log.cpp.i
+.PHONY : scr/Utils/Log.i
+
+# target to preprocess a source file
+scr/Utils/Log.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Utils/Log.cpp.i
+.PHONY : scr/Utils/Log.cpp.i
+
+scr/Utils/Log.s: scr/Utils/Log.cpp.s
+.PHONY : scr/Utils/Log.s
+
+# target to generate assembly for a file
+scr/Utils/Log.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Utils/Log.cpp.s
+.PHONY : scr/Utils/Log.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +190,9 @@ help:
 	@echo "... scr/Engine.o"
 	@echo "... scr/Engine.i"
 	@echo "... scr/Engine.s"
+	@echo "... scr/Utils/Log.o"
+	@echo "... scr/Utils/Log.i"
+	@echo "... scr/Utils/Log.s"
 .PHONY : help
 
 

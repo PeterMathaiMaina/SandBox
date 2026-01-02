@@ -1,15 +1,19 @@
 #pragma once 
 #include "Engine.h"
-#include <stdio.h>
+#include "Log.h"
+
+
+
 extern Bear::Application* Bear::CreateApplicaton();
 
 
 int main()
 {
+    Bear::Log::Init();
+    BEAR_CORE_INFO("Initialised Logger for the engine!"); 
+    BEAR_INFO("Initialised Logger for the client!"); 
     auto app = Bear::CreateApplicaton();
-    printf("created application by the entry point");
     app->run();
     delete app;
 }
-
 

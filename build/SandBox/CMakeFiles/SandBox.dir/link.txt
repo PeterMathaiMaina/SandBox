@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/SandBox.dir/scr/Application.cpp.o -o SandBox  -Wl,-rpath,/home/kelly/SandBox/build/Bear ../Bear/libBear.so 
+/usr/bin/c++ CMakeFiles/SandBox.dir/scr/Application.cpp.o -o SandBox  -Wl,-rpath,/home/kelly/SandBox/build/Bear:/home/kelly/SandBox/build/Bear/vendor/spdlog ../Bear/libBear.so ../Bear/vendor/spdlog/libspdlog.so.1.16.0 

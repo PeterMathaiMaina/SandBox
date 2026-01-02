@@ -93,6 +93,7 @@ SandBox_EXTERNAL_OBJECTS =
 SandBox/SandBox: SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o
 SandBox/SandBox: SandBox/CMakeFiles/SandBox.dir/build.make
 SandBox/SandBox: Bear/libBear.so
+SandBox/SandBox: Bear/vendor/spdlog/libspdlog.so.1.16.0
 SandBox/SandBox: SandBox/CMakeFiles/SandBox.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SandBox"
 	cd /home/kelly/SandBox/build/SandBox && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SandBox.dir/link.txt --verbose=$(VERBOSE)

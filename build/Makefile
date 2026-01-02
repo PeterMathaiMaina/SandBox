@@ -130,6 +130,19 @@ Bear/fast:
 .PHONY : Bear/fast
 
 #=============================================================================
+# Target rules for targets named spdlog
+
+# Build rule for target.
+spdlog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spdlog
+.PHONY : spdlog
+
+# fast build rule for target.
+spdlog/fast:
+	$(MAKE) $(MAKESILENT) -f Bear/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Bear/vendor/spdlog/CMakeFiles/spdlog.dir/build
+.PHONY : spdlog/fast
+
+#=============================================================================
 # Target rules for targets named SandBox
 
 # Build rule for target.
@@ -152,6 +165,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Bear"
 	@echo "... SandBox"
+	@echo "... spdlog"
 .PHONY : help
 
 
