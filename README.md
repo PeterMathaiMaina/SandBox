@@ -1,2 +1,2 @@
 # SandBox
-OpenGL SanBox
+OpenGL SandBox
