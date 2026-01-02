@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/kelly/SandBox/build/SandBox",
+  "command": "/usr/bin/c++  -I/home/kelly/SandBox/SandBox/../Bear/Include -I/home/kelly/SandBox/SandBox/Include -std=gnu++20 -o CMakeFiles/SandBox.dir/scr/Application.cpp.o -c /home/kelly/SandBox/SandBox/scr/Application.cpp",
+  "file": "/home/kelly/SandBox/SandBox/scr/Application.cpp",
+  "output": "SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o"
+}
+]

@@ -1,0 +1,8 @@
+/home/kelly/SandBox/build/CMakeFiles/edit_cache.dir
+/home/kelly/SandBox/build/CMakeFiles/rebuild_cache.dir
+/home/kelly/SandBox/build/Bear/CMakeFiles/Bear.dir
+/home/kelly/SandBox/build/Bear/CMakeFiles/edit_cache.dir
+/home/kelly/SandBox/build/Bear/CMakeFiles/rebuild_cache.dir
+/home/kelly/SandBox/build/SandBox/CMakeFiles/SandBox.dir
+/home/kelly/SandBox/build/SandBox/CMakeFiles/edit_cache.dir
+/home/kelly/SandBox/build/SandBox/CMakeFiles/rebuild_cache.dir

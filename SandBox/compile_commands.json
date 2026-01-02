@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/kelly/SandBox/build",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/RETRO2026.dir/scr/Main.cpp.o -c /home/kelly/SandBox/scr/Main.cpp",
-  "file": "/home/kelly/SandBox/scr/Main.cpp",
-  "output": "CMakeFiles/RETRO2026.dir/scr/Main.cpp.o"
-}
-]
