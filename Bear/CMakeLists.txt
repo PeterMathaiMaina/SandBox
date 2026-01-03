@@ -23,6 +23,10 @@ cmake_policy(SET CMP0072 NEW)
 
 add_library(Bear SHARED
     scr/Utils/Log.cpp
+    scr/Events/Event.cpp
+    scr/Events/KeyEvents.cpp
+    scr/Events/ApplicationEvents.cpp
+    scr/Events/MouseEvent.cpp
     scr/Engine.cpp
     Include/Engine.h
 )
@@ -31,6 +35,7 @@ add_subdirectory(vendor/spdlog)
 target_include_directories(Bear
     PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/Include
+        ${CMAKE_CURRENT_SOURCE_DIR}/Include/Events
 )
 
 

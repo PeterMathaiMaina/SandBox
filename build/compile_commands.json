@@ -1,13 +1,37 @@
 [
 {
   "directory": "/home/kelly/SandBox/build/Bear",
-  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Utils/Log.cpp.o -c /home/kelly/SandBox/Bear/scr/Utils/Log.cpp",
+  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/Include/Events -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Utils/Log.cpp.o -c /home/kelly/SandBox/Bear/scr/Utils/Log.cpp",
   "file": "/home/kelly/SandBox/Bear/scr/Utils/Log.cpp",
   "output": "Bear/CMakeFiles/Bear.dir/scr/Utils/Log.cpp.o"
 },
 {
   "directory": "/home/kelly/SandBox/build/Bear",
-  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Engine.cpp.o -c /home/kelly/SandBox/Bear/scr/Engine.cpp",
+  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/Include/Events -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Events/Event.cpp.o -c /home/kelly/SandBox/Bear/scr/Events/Event.cpp",
+  "file": "/home/kelly/SandBox/Bear/scr/Events/Event.cpp",
+  "output": "Bear/CMakeFiles/Bear.dir/scr/Events/Event.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear",
+  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/Include/Events -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Events/KeyEvents.cpp.o -c /home/kelly/SandBox/Bear/scr/Events/KeyEvents.cpp",
+  "file": "/home/kelly/SandBox/Bear/scr/Events/KeyEvents.cpp",
+  "output": "Bear/CMakeFiles/Bear.dir/scr/Events/KeyEvents.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear",
+  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/Include/Events -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Events/ApplicationEvents.cpp.o -c /home/kelly/SandBox/Bear/scr/Events/ApplicationEvents.cpp",
+  "file": "/home/kelly/SandBox/Bear/scr/Events/ApplicationEvents.cpp",
+  "output": "Bear/CMakeFiles/Bear.dir/scr/Events/ApplicationEvents.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear",
+  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/Include/Events -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Events/MouseEvent.cpp.o -c /home/kelly/SandBox/Bear/scr/Events/MouseEvent.cpp",
+  "file": "/home/kelly/SandBox/Bear/scr/Events/MouseEvent.cpp",
+  "output": "Bear/CMakeFiles/Bear.dir/scr/Events/MouseEvent.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear",
+  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/Include/Events -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Engine.cpp.o -c /home/kelly/SandBox/Bear/scr/Engine.cpp",
   "file": "/home/kelly/SandBox/Bear/scr/Engine.cpp",
   "output": "Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o"
 },
@@ -55,7 +79,7 @@
 },
 {
   "directory": "/home/kelly/SandBox/build/SandBox",
-  "command": "/usr/bin/c++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/SandBox/../Bear/Include -I/home/kelly/SandBox/SandBox/Include -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++20 -o CMakeFiles/SandBox.dir/scr/Application.cpp.o -c /home/kelly/SandBox/SandBox/scr/Application.cpp",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/SandBox/../Bear/Include -I/home/kelly/SandBox/SandBox/../Bear/Include/Events -I/home/kelly/SandBox/SandBox/Include -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/Include/Events -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++20 -o CMakeFiles/SandBox.dir/scr/Application.cpp.o -c /home/kelly/SandBox/SandBox/scr/Application.cpp",
   "file": "/home/kelly/SandBox/SandBox/scr/Application.cpp",
   "output": "SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o"
 }

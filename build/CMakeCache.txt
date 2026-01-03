@@ -374,9 +374,6 @@ SPDLOG_BUILD_EXAMPLE_HO:BOOL=OFF
 //Build position independent code (-fPIC)
 SPDLOG_BUILD_PIC:BOOL=OFF
 
-//Build shared library
-SPDLOG_BUILD_SHARED:BOOL=OFF
-
 //Build tests
 SPDLOG_BUILD_TESTS:BOOL=OFF
 
@@ -473,9 +470,6 @@ glm_DIR:PATH=/usr/share/cmake/glm
 
 //Value Computed by CMake
 spdlog_BINARY_DIR:STATIC=/home/kelly/SandBox/build/Bear/vendor/spdlog
-
-//The directory containing a CMake configuration file for spdlog.
-spdlog_DIR:PATH=spdlog_DIR-NOTFOUND
 
 //Value Computed by CMake
 spdlog_IS_TOP_LEVEL:STATIC=OFF

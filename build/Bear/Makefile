@@ -154,6 +154,102 @@ scr/Engine.cpp.s:
 	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.s
 .PHONY : scr/Engine.cpp.s
 
+scr/Events/ApplicationEvents.o: scr/Events/ApplicationEvents.cpp.o
+.PHONY : scr/Events/ApplicationEvents.o
+
+# target to build an object file
+scr/Events/ApplicationEvents.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Events/ApplicationEvents.cpp.o
+.PHONY : scr/Events/ApplicationEvents.cpp.o
+
+scr/Events/ApplicationEvents.i: scr/Events/ApplicationEvents.cpp.i
+.PHONY : scr/Events/ApplicationEvents.i
+
+# target to preprocess a source file
+scr/Events/ApplicationEvents.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Events/ApplicationEvents.cpp.i
+.PHONY : scr/Events/ApplicationEvents.cpp.i
+
+scr/Events/ApplicationEvents.s: scr/Events/ApplicationEvents.cpp.s
+.PHONY : scr/Events/ApplicationEvents.s
+
+# target to generate assembly for a file
+scr/Events/ApplicationEvents.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Events/ApplicationEvents.cpp.s
+.PHONY : scr/Events/ApplicationEvents.cpp.s
+
+scr/Events/Event.o: scr/Events/Event.cpp.o
+.PHONY : scr/Events/Event.o
+
+# target to build an object file
+scr/Events/Event.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Events/Event.cpp.o
+.PHONY : scr/Events/Event.cpp.o
+
+scr/Events/Event.i: scr/Events/Event.cpp.i
+.PHONY : scr/Events/Event.i
+
+# target to preprocess a source file
+scr/Events/Event.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Events/Event.cpp.i
+.PHONY : scr/Events/Event.cpp.i
+
+scr/Events/Event.s: scr/Events/Event.cpp.s
+.PHONY : scr/Events/Event.s
+
+# target to generate assembly for a file
+scr/Events/Event.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Events/Event.cpp.s
+.PHONY : scr/Events/Event.cpp.s
+
+scr/Events/KeyEvents.o: scr/Events/KeyEvents.cpp.o
+.PHONY : scr/Events/KeyEvents.o
+
+# target to build an object file
+scr/Events/KeyEvents.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Events/KeyEvents.cpp.o
+.PHONY : scr/Events/KeyEvents.cpp.o
+
+scr/Events/KeyEvents.i: scr/Events/KeyEvents.cpp.i
+.PHONY : scr/Events/KeyEvents.i
+
+# target to preprocess a source file
+scr/Events/KeyEvents.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Events/KeyEvents.cpp.i
+.PHONY : scr/Events/KeyEvents.cpp.i
+
+scr/Events/KeyEvents.s: scr/Events/KeyEvents.cpp.s
+.PHONY : scr/Events/KeyEvents.s
+
+# target to generate assembly for a file
+scr/Events/KeyEvents.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Events/KeyEvents.cpp.s
+.PHONY : scr/Events/KeyEvents.cpp.s
+
+scr/Events/MouseEvent.o: scr/Events/MouseEvent.cpp.o
+.PHONY : scr/Events/MouseEvent.o
+
+# target to build an object file
+scr/Events/MouseEvent.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Events/MouseEvent.cpp.o
+.PHONY : scr/Events/MouseEvent.cpp.o
+
+scr/Events/MouseEvent.i: scr/Events/MouseEvent.cpp.i
+.PHONY : scr/Events/MouseEvent.i
+
+# target to preprocess a source file
+scr/Events/MouseEvent.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Events/MouseEvent.cpp.i
+.PHONY : scr/Events/MouseEvent.cpp.i
+
+scr/Events/MouseEvent.s: scr/Events/MouseEvent.cpp.s
+.PHONY : scr/Events/MouseEvent.s
+
+# target to generate assembly for a file
+scr/Events/MouseEvent.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Events/MouseEvent.cpp.s
+.PHONY : scr/Events/MouseEvent.cpp.s
+
 scr/Utils/Log.o: scr/Utils/Log.cpp.o
 .PHONY : scr/Utils/Log.o
 
@@ -190,6 +286,18 @@ help:
 	@echo "... scr/Engine.o"
 	@echo "... scr/Engine.i"
 	@echo "... scr/Engine.s"
+	@echo "... scr/Events/ApplicationEvents.o"
+	@echo "... scr/Events/ApplicationEvents.i"
+	@echo "... scr/Events/ApplicationEvents.s"
+	@echo "... scr/Events/Event.o"
+	@echo "... scr/Events/Event.i"
+	@echo "... scr/Events/Event.s"
+	@echo "... scr/Events/KeyEvents.o"
+	@echo "... scr/Events/KeyEvents.i"
+	@echo "... scr/Events/KeyEvents.s"
+	@echo "... scr/Events/MouseEvent.o"
+	@echo "... scr/Events/MouseEvent.i"
+	@echo "... scr/Events/MouseEvent.s"
 	@echo "... scr/Utils/Log.o"
 	@echo "... scr/Utils/Log.i"
 	@echo "... scr/Utils/Log.s"

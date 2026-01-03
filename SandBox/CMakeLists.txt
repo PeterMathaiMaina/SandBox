@@ -11,6 +11,7 @@ add_executable(SandBox scr/Application.cpp)
 target_include_directories(SandBox PRIVATE
    # ${CMAKE_SOURCE_DIR}/scr/BackEnd
    ../Bear/Include/
+   ../Bear/Include/Events/
    Include/
 )   
 
