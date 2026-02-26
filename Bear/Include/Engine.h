@@ -1,4 +1,5 @@
 #pragma once
+#include "Events/ApplicationEvents.h"
 namespace Bear{
 class Application {
 public:

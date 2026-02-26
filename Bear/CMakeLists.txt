@@ -5,6 +5,7 @@ project(Bear)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_TOOLCHAIN_FILE "/home/kelly/vcpkg-master/scripts/buildsystems/vcpkg.cmake" CACHE STRING "" FORCE)
+find_package(glfw3 CONFIG REQUIRED)
 find_package(GLEW REQUIRED)
 find_package(assimp REQUIRED)
 find_package(glm REQUIRED)
@@ -23,10 +24,6 @@ cmake_policy(SET CMP0072 NEW)
 
 add_library(Bear SHARED
     scr/Utils/Log.cpp
-    scr/Events/Event.cpp
-    scr/Events/KeyEvents.cpp
-    scr/Events/ApplicationEvents.cpp
-    scr/Events/MouseEvent.cpp
     scr/Engine.cpp
     Include/Engine.h
 )
@@ -36,13 +33,13 @@ target_include_directories(Bear
     PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/Include
         ${CMAKE_CURRENT_SOURCE_DIR}/Include/Events
+        ${GLFW_INCLUDE_DIRS}
 )
 
 
 target_link_libraries(Bear
     PUBLIC
         spdlog::spdlog   # <-- THIS is what propagates spdlog headers
-    PRIVATE
         glfw
         OpenGL::GL
         GLEW::GLEW

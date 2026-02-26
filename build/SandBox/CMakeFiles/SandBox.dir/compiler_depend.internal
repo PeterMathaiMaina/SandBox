@@ -21,6 +21,9 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/version.h
  /home/kelly/SandBox/Bear/Include/Engine.h
  /home/kelly/SandBox/Bear/Include/EntryPoint.h
+ /home/kelly/SandBox/Bear/Include/Base.h
+ /home/kelly/SandBox/Bear/Include/Events/ApplicationEvents.h
+ /home/kelly/SandBox/Bear/Include/Events/Event.h
  /home/kelly/SandBox/Bear/Include/Log.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
