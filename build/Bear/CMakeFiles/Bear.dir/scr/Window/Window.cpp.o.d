@@ -1,8 +1,9 @@
-Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o: \
- /home/kelly/SandBox/Bear/scr/Engine.cpp /usr/include/stdc-predef.h \
- /home/kelly/SandBox/Bear/scr/../Include/Engine.h \
- /home/kelly/SandBox/Bear/scr/../Include/Events/ApplicationEvents.h \
- /home/kelly/SandBox/Bear/scr/../Include/Events/Event.h \
+Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: \
+ /home/kelly/SandBox/Bear/scr/Window/Window.cpp \
+ /usr/include/stdc-predef.h \
+ /home/kelly/SandBox/Bear/scr/Window/../../Include/Platforms/Linux/Lin_Windows.h \
+ /home/kelly/SandBox/Bear/Include/Events/../Window.h \
+ /home/kelly/SandBox/Bear/Include/Events/Event.h \
  /usr/include/c++/13/functional \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -103,7 +104,7 @@ Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/13/bits/std_abs.h \
- /home/kelly/SandBox/Bear/scr/../Include/Events/../Base.h \
+ /home/kelly/SandBox/Bear/Include/Events/../Base.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
@@ -189,10 +190,7 @@ Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h \
- /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h \
- /usr/include/c++/13/cstdint \
- /home/kelly/SandBox/Bear/scr/../Include/Log.h \
+ /home/kelly/SandBox/Bear/Include/Events/../Log.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/logger.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/common.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/null_mutex.h \
@@ -200,8 +198,9 @@ Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o: \
  /usr/include/c++/13/bits/stl_relops.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/tweakme.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
- /usr/include/c++/13/ratio /usr/include/c++/13/limits \
- /usr/include/c++/13/ctime /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
+ /usr/include/c++/13/limits /usr/include/c++/13/ctime \
+ /usr/include/c++/13/bits/parse_numbers.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/fmt/fmt.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/fmt/bundled/format.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/fmt/bundled/base.h \
@@ -251,5 +250,5 @@ Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o: \
  /usr/include/c++/13/bits/this_thread_sleep.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/version.h \
- /home/kelly/SandBox/Bear/scr/../Include/Window.h \
- /usr/include/c++/13/iostream
+ /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
+ /usr/include/KHR/khrplatform.h /usr/include/c++/13/iostream

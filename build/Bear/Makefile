@@ -154,6 +154,54 @@ scr/Engine.cpp.s:
 	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.s
 .PHONY : scr/Engine.cpp.s
 
+scr/Platforms/Linux/Lin_Windows.o: scr/Platforms/Linux/Lin_Windows.cpp.o
+.PHONY : scr/Platforms/Linux/Lin_Windows.o
+
+# target to build an object file
+scr/Platforms/Linux/Lin_Windows.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o
+.PHONY : scr/Platforms/Linux/Lin_Windows.cpp.o
+
+scr/Platforms/Linux/Lin_Windows.i: scr/Platforms/Linux/Lin_Windows.cpp.i
+.PHONY : scr/Platforms/Linux/Lin_Windows.i
+
+# target to preprocess a source file
+scr/Platforms/Linux/Lin_Windows.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.i
+.PHONY : scr/Platforms/Linux/Lin_Windows.cpp.i
+
+scr/Platforms/Linux/Lin_Windows.s: scr/Platforms/Linux/Lin_Windows.cpp.s
+.PHONY : scr/Platforms/Linux/Lin_Windows.s
+
+# target to generate assembly for a file
+scr/Platforms/Linux/Lin_Windows.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.s
+.PHONY : scr/Platforms/Linux/Lin_Windows.cpp.s
+
+scr/Renderer/GraphicsContext.o: scr/Renderer/GraphicsContext.cpp.o
+.PHONY : scr/Renderer/GraphicsContext.o
+
+# target to build an object file
+scr/Renderer/GraphicsContext.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.o
+.PHONY : scr/Renderer/GraphicsContext.cpp.o
+
+scr/Renderer/GraphicsContext.i: scr/Renderer/GraphicsContext.cpp.i
+.PHONY : scr/Renderer/GraphicsContext.i
+
+# target to preprocess a source file
+scr/Renderer/GraphicsContext.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.i
+.PHONY : scr/Renderer/GraphicsContext.cpp.i
+
+scr/Renderer/GraphicsContext.s: scr/Renderer/GraphicsContext.cpp.s
+.PHONY : scr/Renderer/GraphicsContext.s
+
+# target to generate assembly for a file
+scr/Renderer/GraphicsContext.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.s
+.PHONY : scr/Renderer/GraphicsContext.cpp.s
+
 scr/Utils/Log.o: scr/Utils/Log.cpp.o
 .PHONY : scr/Utils/Log.o
 
@@ -178,6 +226,30 @@ scr/Utils/Log.cpp.s:
 	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Utils/Log.cpp.s
 .PHONY : scr/Utils/Log.cpp.s
 
+scr/Window/Window.o: scr/Window/Window.cpp.o
+.PHONY : scr/Window/Window.o
+
+# target to build an object file
+scr/Window/Window.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o
+.PHONY : scr/Window/Window.cpp.o
+
+scr/Window/Window.i: scr/Window/Window.cpp.i
+.PHONY : scr/Window/Window.i
+
+# target to preprocess a source file
+scr/Window/Window.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.i
+.PHONY : scr/Window/Window.cpp.i
+
+scr/Window/Window.s: scr/Window/Window.cpp.s
+.PHONY : scr/Window/Window.s
+
+# target to generate assembly for a file
+scr/Window/Window.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.s
+.PHONY : scr/Window/Window.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -190,9 +262,18 @@ help:
 	@echo "... scr/Engine.o"
 	@echo "... scr/Engine.i"
 	@echo "... scr/Engine.s"
+	@echo "... scr/Platforms/Linux/Lin_Windows.o"
+	@echo "... scr/Platforms/Linux/Lin_Windows.i"
+	@echo "... scr/Platforms/Linux/Lin_Windows.s"
+	@echo "... scr/Renderer/GraphicsContext.o"
+	@echo "... scr/Renderer/GraphicsContext.i"
+	@echo "... scr/Renderer/GraphicsContext.s"
 	@echo "... scr/Utils/Log.o"
 	@echo "... scr/Utils/Log.i"
 	@echo "... scr/Utils/Log.s"
+	@echo "... scr/Window/Window.o"
+	@echo "... scr/Window/Window.i"
+	@echo "... scr/Window/Window.s"
 .PHONY : help
 
 

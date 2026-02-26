@@ -12,6 +12,24 @@
   "output": "Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o"
 },
 {
+  "directory": "/home/kelly/SandBox/build/Bear",
+  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/Include/Events -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.o -c /home/kelly/SandBox/Bear/scr/Renderer/GraphicsContext.cpp",
+  "file": "/home/kelly/SandBox/Bear/scr/Renderer/GraphicsContext.cpp",
+  "output": "Bear/CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear",
+  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/Include/Events -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o -c /home/kelly/SandBox/Bear/scr/Platforms/Linux/Lin_Windows.cpp",
+  "file": "/home/kelly/SandBox/Bear/scr/Platforms/Linux/Lin_Windows.cpp",
+  "output": "Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o"
+},
+{
+  "directory": "/home/kelly/SandBox/build/Bear",
+  "command": "/usr/bin/c++ -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/Include/Events -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=gnu++17 -fPIC -o CMakeFiles/Bear.dir/scr/Window/Window.cpp.o -c /home/kelly/SandBox/Bear/scr/Window/Window.cpp",
+  "file": "/home/kelly/SandBox/Bear/scr/Window/Window.cpp",
+  "output": "Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o"
+},
+{
   "directory": "/home/kelly/SandBox/build/Bear/vendor/spdlog",
   "command": "/usr/bin/c++ -DFMT_LIB_EXPORT -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -I/home/kelly/SandBox/Bear/vendor/spdlog/include -std=c++17 -fPIC -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/kelly/SandBox/Bear/vendor/spdlog/src/spdlog.cpp",
   "file": "/home/kelly/SandBox/Bear/vendor/spdlog/src/spdlog.cpp",

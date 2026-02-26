@@ -24,7 +24,10 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o
  /home/kelly/SandBox/Bear/Include/Base.h
  /home/kelly/SandBox/Bear/Include/Events/ApplicationEvents.h
  /home/kelly/SandBox/Bear/Include/Events/Event.h
+ /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h
+ /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h
  /home/kelly/SandBox/Bear/Include/Log.h
+ /home/kelly/SandBox/Bear/Include/Window.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

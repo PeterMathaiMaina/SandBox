@@ -26,6 +26,9 @@ add_library(Bear SHARED
     scr/Utils/Log.cpp
     scr/Engine.cpp
     Include/Engine.h
+    scr/Renderer/GraphicsContext.cpp
+    scr/Platforms/Linux/Lin_Windows.cpp
+    scr/Window/Window.cpp
 )
 add_subdirectory(vendor/spdlog)
 
