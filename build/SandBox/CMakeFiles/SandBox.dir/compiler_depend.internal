@@ -28,6 +28,10 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o
  /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h
  /home/kelly/SandBox/Bear/Include/Log.h
  /home/kelly/SandBox/Bear/Include/Window.h
+ /usr/include/GL/gl.h
+ /usr/include/GL/glext.h
+ /usr/include/GLFW/glfw3.h
+ /usr/include/KHR/khrplatform.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

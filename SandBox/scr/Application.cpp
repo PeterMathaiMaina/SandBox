@@ -4,6 +4,7 @@
 #include "Engine.h"
 #include "EntryPoint.h"
 #include "ApplicationEvents.h"
+#include "Log.h"
 #include "Window.h"
 ////////////////////////////////////////////////////////////
 // Sandbox Application (Client Side)
@@ -35,10 +36,12 @@ namespace Bear
 namespace Bear
 {
 
+#define BIND_EVENT_FUNC(x) std::bind(&x ,this ,std::placeholders::_1)
 Application::Application()
 {
     std::cout << "Engine created!" << std::endl;
     m_Window = Window::Create();
+    m_Window->SetEventCallback(BIND_EVENT_FUNC(Application::OnEvent));
 }
 
 Application::~Application()
@@ -49,8 +52,10 @@ Application::~Application()
 
 void Application::init()
 { 
-    //std::cout << "THE WINDOW CRY CRY\n";
     std::cout << "Engine initialized!" << std::endl;
+}
+void Application::OnEvent(Event& e){
+    BEAR_INFO("{0} ",e.GetName());
 }
 
 void Application::run()

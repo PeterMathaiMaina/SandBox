@@ -314,7 +314,12 @@ Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o: /home/kelly/Sand
   /home/kelly/SandBox/Bear/Include/Base.h \
   /home/kelly/SandBox/Bear/Include/Log.h \
   /home/kelly/SandBox/Bear/Include/Window.h \
+  /home/kelly/SandBox/Bear/Include/Events/ApplicationEvents.h \
   /home/kelly/SandBox/Bear/Include/Events/Event.h \
+  /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h \
+  /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h \
+  /home/kelly/SandBox/Bear/Include/Events/MouseCode.h \
+  /home/kelly/SandBox/Bear/Include/Events/MouseEvent.h \
   /home/kelly/SandBox/Bear/Include/Platforms/Linux/Lin_Windows.h \
   /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/common.h \
   /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/backtracer.h \
@@ -1225,6 +1230,8 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /home/kelly/SandBox/Bear/scr/Renderer/GraphicsContext.cpp:
 
+/home/kelly/SandBox/Bear/Include/Events/MouseEvent.h:
+
 /home/kelly/SandBox/Bear/scr/Platforms/Linux/Lin_Windows.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
@@ -1450,6 +1457,8 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h:
 
 /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/fmt/bundled/format.h:
+
+/home/kelly/SandBox/Bear/Include/Events/MouseCode.h:
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 

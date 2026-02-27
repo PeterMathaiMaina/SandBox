@@ -27,6 +27,10 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
   /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h \
   /home/kelly/SandBox/Bear/Include/Log.h \
   /home/kelly/SandBox/Bear/Include/Window.h \
+  /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h \
+  /usr/include/GLFW/glfw3.h \
+  /usr/include/KHR/khrplatform.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -491,7 +495,11 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
-/usr/include/c++/13/locale:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
@@ -549,10 +557,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 
 /usr/include/c++/13/numbers:
 
-/usr/include/c++/13/bits/stl_uninitialized.h:
-
-/usr/include/c++/13/bits/new_allocator.h:
-
 /usr/include/c++/13/bits/atomic_base.h:
 
 /usr/include/c++/13/bits/uses_allocator_args.h:
@@ -585,10 +589,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 
 /usr/include/c++/13/bits/invoke.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/c++/13/bits/hashtable.h:
@@ -611,42 +611,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 
 /usr/include/math.h:
 
-/usr/include/c++/13/bits/stl_algo.h:
-
-/usr/include/c++/13/cstddef:
-
-/usr/include/c++/13/ext/string_conversions.h:
-
-/usr/include/c++/13/utility:
-
-/usr/include/c++/13/bits/stl_heap.h:
-
-/usr/include/c++/13/bits/std_abs.h:
-
-/usr/include/c++/13/bits/parse_numbers.h:
-
-/usr/include/c++/13/bits/locale_facets.tcc:
-
-/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/backtracer.h:
-
-/usr/include/c++/13/bits/semaphore_base.h:
-
-/home/kelly/SandBox/Bear/Include/Events/Event.h:
-
-/usr/include/c++/13/bits/exception_ptr.h:
-
-/home/kelly/SandBox/Bear/Include/Events/ApplicationEvents.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/c++/13/bits/algorithmfwd.h:
-
-/usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/c++/13/bits/concept_check.h:
-
-/home/kelly/SandBox/Bear/Include/Events/KeyCodes.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
 
 /usr/include/c++/13/bits/ranges_util.h:
@@ -663,6 +627,46 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 
 /usr/include/c++/13/condition_variable:
 
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/c++/13/bits/enable_special_members.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/usr/include/GL/gl.h:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/usr/include/c++/13/pstl/execution_defs.h:
+
+/usr/include/c++/13/utility:
+
+/usr/include/c++/13/bits/stl_heap.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/usr/include/c++/13/bits/parse_numbers.h:
+
+/usr/include/c++/13/bits/locale_facets.tcc:
+
+/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/backtracer.h:
+
+/usr/include/c++/13/bits/exception_ptr.h:
+
+/home/kelly/SandBox/Bear/Include/Events/ApplicationEvents.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/bits/algorithmfwd.h:
+
+/usr/include/c++/13/bits/alloc_traits.h:
+
+/usr/include/c++/13/bits/concept_check.h:
+
+/home/kelly/SandBox/Bear/Include/Events/KeyCodes.h:
+
 /usr/include/c++/13/bits/exception.h:
 
 /usr/include/c++/13/bits/memory_resource.h:
@@ -670,10 +674,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 /usr/include/c++/13/streambuf:
 
 /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/common.h:
-
-/usr/include/c++/13/bits/sstream.tcc:
-
-/usr/include/c++/13/cwctype:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -683,13 +683,59 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 
 /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/circular_q.h:
 
-/usr/include/c++/13/bits/stl_vector.h:
+/usr/include/c++/13/bits/sstream.tcc:
 
-/usr/include/c++/13/bits/stl_tempbuf.h:
+/usr/include/c++/13/cwctype:
+
+/usr/include/c++/13/cassert:
+
+/usr/include/c++/13/bits/cpp_type_traits.h:
+
+/usr/include/c++/13/bits/semaphore_base.h:
+
+/home/kelly/SandBox/Bear/Include/Events/Event.h:
+
+/usr/include/GL/glext.h:
+
+/usr/include/c++/13/bits/stl_algo.h:
+
+/usr/include/c++/13/cstddef:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/home/kelly/SandBox/Bear/Include/Engine.h:
+
+/usr/include/c++/13/cstdio:
+
+/usr/include/c++/13/bits/hashtable_policy.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/usr/include/c++/13/bits/std_function.h:
+
+/usr/include/c++/13/bits/char_traits.h:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/13/typeinfo:
+
+/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/fmt/bundled/base.h:
+
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/usr/include/assert.h:
 
 /usr/include/c++/13/bits/codecvt.h:
 
 /home/kelly/SandBox/Bear/Include/EntryPoint.h:
+
+/usr/include/c++/13/ext/string_conversions.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -710,10 +756,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/tweakme.h:
 
 /usr/include/c++/13/array:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/c++/13/bits/enable_special_members.h:
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
@@ -739,21 +781,7 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 
 /usr/include/c++/13/cerrno:
 
-/usr/include/c++/13/bits/atomic_lockfree_defines.h:
-
 /usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/c++/13/bits/charconv.h:
-
-/home/kelly/SandBox/Bear/Include/Engine.h:
-
-/usr/include/c++/13/cstdio:
-
-/usr/include/assert.h:
-
-/usr/include/c++/13/backward/auto_ptr.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
@@ -770,10 +798,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 /usr/include/c++/13/tuple:
 
 /usr/include/c++/13/bits/nested_exception.h:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/usr/include/c++/13/pstl/execution_defs.h:
 
 /usr/include/c++/13/bits/atomic_timed_wait.h:
 
@@ -805,29 +829,27 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 
 /usr/include/c++/13/bits/chrono_io.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+/usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
-/usr/include/c++/13/bits/std_function.h:
+/usr/include/KHR/khrplatform.h:
 
-/usr/include/c++/13/bits/char_traits.h:
-
-/usr/include/c++/13/bits/hashtable_policy.h:
+/usr/include/c++/13/bits/stl_vector.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/13/bits/chrono.h:
 
-/usr/include/c++/13/cassert:
+/usr/include/c++/13/bits/stl_tempbuf.h:
 
-/usr/include/c++/13/bits/cpp_type_traits.h:
+/usr/include/c++/13/bits/new_allocator.h:
 
-/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/fmt/bundled/base.h:
+/usr/include/c++/13/bits/stl_uninitialized.h:
 
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/13/typeinfo:
+/usr/include/c++/13/locale:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/GLFW/glfw3.h:
 
 /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/null_mutex.h:
 
@@ -889,8 +911,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 
 /usr/include/c++/13/memory:
 
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
 /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/synchronous_factory.h:
 
 /usr/include/c++/13/cstring:
@@ -904,10 +924,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 /home/kelly/SandBox/Bear/Include/Log.h:
 
 /usr/include/c++/13/debug/assertions.h:
-
-/usr/include/c++/13/bits/stl_pair.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/c++/13/ext/aligned_buffer.h:
 
@@ -1066,7 +1082,3 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
