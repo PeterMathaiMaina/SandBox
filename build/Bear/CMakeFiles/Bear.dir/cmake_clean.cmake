@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Bear.dir/scr/Engine.cpp.o"
   "CMakeFiles/Bear.dir/scr/Engine.cpp.o.d"
+  "CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o"
+  "CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o.d"
+  "CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o"
+  "CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o.d"
   "CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o"
   "CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o.d"
   "CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.o"

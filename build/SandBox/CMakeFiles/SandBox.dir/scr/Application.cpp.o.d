@@ -1,7 +1,6 @@
 SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: \
  /home/kelly/SandBox/SandBox/scr/Application.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/stdc-predef.h /usr/include/c++/13/cstddef \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -12,15 +11,16 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
- /usr/include/c++/13/pstl/pstl_config.h /usr/include/c++/13/ostream \
- /usr/include/c++/13/ios /usr/include/c++/13/iosfwd \
- /usr/include/c++/13/bits/stringfwd.h \
+ /usr/include/c++/13/pstl/pstl_config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/c++/13/ostream /usr/include/c++/13/ios \
+ /usr/include/c++/13/iosfwd /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/memoryfwd.h /usr/include/c++/13/bits/postypes.h \
  /usr/include/c++/13/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
@@ -136,7 +136,7 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
+ /usr/include/c++/13/bits/memory_resource.h \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/bits/ranges_util.h \
@@ -222,6 +222,7 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: \
  /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc \
  /home/kelly/SandBox/SandBox/../Bear/Include/Events/KeyEvents.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Events/KeyCodes.h \
+ /home/kelly/SandBox/SandBox/../Bear/Include/Layers/Layer.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Log.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/logger.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/common.h \
@@ -289,4 +290,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/version.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Window.h \
- /home/kelly/SandBox/SandBox/../Bear/Include/EntryPoint.h
+ /home/kelly/SandBox/SandBox/../Bear/Include/Layers/LayerStack.h \
+ /home/kelly/SandBox/SandBox/../Bear/Include/EntryPoint.h \
+ /home/kelly/SandBox/SandBox/Include/ExampleLayer.h

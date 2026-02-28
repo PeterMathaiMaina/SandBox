@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SandBox.dir/scr/Application.cpp.o"
   "CMakeFiles/SandBox.dir/scr/Application.cpp.o.d"
+  "CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o"
+  "CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o.d"
   "SandBox"
   "SandBox.pdb"
 )

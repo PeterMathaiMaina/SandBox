@@ -154,6 +154,30 @@ scr/Application.cpp.s:
 	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.s
 .PHONY : scr/Application.cpp.s
 
+scr/Layers/ExampleLayer.o: scr/Layers/ExampleLayer.cpp.o
+.PHONY : scr/Layers/ExampleLayer.o
+
+# target to build an object file
+scr/Layers/ExampleLayer.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o
+.PHONY : scr/Layers/ExampleLayer.cpp.o
+
+scr/Layers/ExampleLayer.i: scr/Layers/ExampleLayer.cpp.i
+.PHONY : scr/Layers/ExampleLayer.i
+
+# target to preprocess a source file
+scr/Layers/ExampleLayer.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.i
+.PHONY : scr/Layers/ExampleLayer.cpp.i
+
+scr/Layers/ExampleLayer.s: scr/Layers/ExampleLayer.cpp.s
+.PHONY : scr/Layers/ExampleLayer.s
+
+# target to generate assembly for a file
+scr/Layers/ExampleLayer.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.s
+.PHONY : scr/Layers/ExampleLayer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +190,9 @@ help:
 	@echo "... scr/Application.o"
 	@echo "... scr/Application.i"
 	@echo "... scr/Application.s"
+	@echo "... scr/Layers/ExampleLayer.o"
+	@echo "... scr/Layers/ExampleLayer.i"
+	@echo "... scr/Layers/ExampleLayer.s"
 .PHONY : help
 
 

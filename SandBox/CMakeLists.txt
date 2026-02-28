@@ -5,7 +5,8 @@ project(SandBox)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_executable(SandBox scr/Application.cpp)
+add_executable(SandBox scr/Application.cpp
+                        scr/Layers/ExampleLayer.cpp)
 
 
 target_include_directories(SandBox PRIVATE

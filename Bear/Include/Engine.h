@@ -3,9 +3,10 @@
 #include "Events/ApplicationEvents.h"
 #include "Event.h"
 #include "KeyEvents.h"
+#include "Layers/Layer.h"
 #include "Log.h"
 #include "Window.h"
-
+#include "Layers/LayerStack.h"
 #include <cstdint>
 #include <iostream>
 #include <memory>
@@ -21,8 +22,12 @@ public:
     void init();
     void run();
     void OnEvent(Event& e);
+    void PushLayer(Layer* layer);
+    void Pushoverlay(Layer* overlay);
+    bool OnWindowClose(WindowCloseEvent& e);
 private:
     std::unique_ptr<Window> m_Window; // okay with forward-declared Window if destructor out-of-line
+    LayerStack m_LayerStack;
     bool m_running = true;
 };
 

@@ -192,6 +192,7 @@ Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o: \
  /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h \
  /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h \
  /usr/include/c++/13/cstdint \
+ /home/kelly/SandBox/Bear/scr/../Include/Layers/Layer.h \
  /home/kelly/SandBox/Bear/scr/../Include/Log.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/logger.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/common.h \
@@ -252,4 +253,5 @@ Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o: \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/version.h \
  /home/kelly/SandBox/Bear/scr/../Include/Window.h \
+ /home/kelly/SandBox/Bear/scr/../Include/Layers/LayerStack.h \
  /usr/include/c++/13/iostream

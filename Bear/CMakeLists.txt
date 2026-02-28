@@ -29,6 +29,8 @@ add_library(Bear SHARED
     scr/Renderer/GraphicsContext.cpp
     scr/Platforms/Linux/Lin_Windows.cpp
     scr/Window/Window.cpp
+    scr/Layers/Layer.cpp
+    scr/Layers/LayerStack.cpp
 )
 add_subdirectory(vendor/spdlog)
 

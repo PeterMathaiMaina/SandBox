@@ -1,11 +1,16 @@
+#include <cstddef>
 #include <iostream>
 #include <memory>
 #include <GLFW/glfw3.h>
 #include "Engine.h"
 #include "EntryPoint.h"
 #include "ApplicationEvents.h"
+#include "Event.h"
+#include "Layers/Layer.h"
 #include "Log.h"
 #include "Window.h"
+#include "Layers/LayerStack.h"
+#include "ExampleLayer.h"
 ////////////////////////////////////////////////////////////
 // Sandbox Application (Client Side)
 ////////////////////////////////////////////////////////////
@@ -13,7 +18,10 @@
 class SandBox : public Bear::Application
 {
 public:
-    SandBox() = default;
+    SandBox() 
+    {
+        PushLayer(new ExampleLayer());
+    };
     ~SandBox() override = default;
 };
 
@@ -35,13 +43,13 @@ namespace Bear
 
 namespace Bear
 {
-
-#define BIND_EVENT_FUNC(x) std::bind(&x ,this ,std::placeholders::_1)
+#define BIND_EVENT_FUNC(x) std::bind(&Application::x, this, std::placeholders::_1)
 Application::Application()
 {
     std::cout << "Engine created!" << std::endl;
     m_Window = Window::Create();
-    m_Window->SetEventCallback(BIND_EVENT_FUNC(Application::OnEvent));
+    m_Window->SetEventCallback(BIND_EVENT_FUNC(OnEvent));
+
 }
 
 Application::~Application()
@@ -55,7 +63,28 @@ void Application::init()
     std::cout << "Engine initialized!" << std::endl;
 }
 void Application::OnEvent(Event& e){
+    EventDispatcher dispatcher(e);
+    dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FUNC(OnWindowClose));
     BEAR_INFO("{0} ",e.GetName());
+    
+
+    for (auto it  = m_LayerStack.End(); it != m_LayerStack.Begin(); ){
+        (*--it)->OnEvent(e);
+        if(e.Handled){
+            break;
+        }
+
+    }
+
+
+}
+
+void Application::PushLayer(Layer* layer){
+    m_LayerStack.PushLayer(layer);
+}
+
+void Application::Pushoverlay(Layer* overlay){
+    m_LayerStack.PushOverlay(overlay);
 }
 
 void Application::run()
@@ -75,8 +104,11 @@ void Application::run()
     {
         m_Window->OnUpdate();
 
-
-
+        for (Layer* layer : m_LayerStack) {
+            if(layer->IsOverLay()){
+                std::cout<<"it is overlay\n";
+            }
+        }
 
 
         // --- Begin OpenGL commands ---
@@ -92,6 +124,9 @@ void Application::run()
         glEnd();
     }
 }
-
+bool Application::OnWindowClose(WindowCloseEvent& e){
+    m_running = false;
+    return true;
+}
 
 } // namespace Bear

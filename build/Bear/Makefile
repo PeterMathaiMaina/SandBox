@@ -154,6 +154,54 @@ scr/Engine.cpp.s:
 	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.s
 .PHONY : scr/Engine.cpp.s
 
+scr/Layers/Layer.o: scr/Layers/Layer.cpp.o
+.PHONY : scr/Layers/Layer.o
+
+# target to build an object file
+scr/Layers/Layer.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o
+.PHONY : scr/Layers/Layer.cpp.o
+
+scr/Layers/Layer.i: scr/Layers/Layer.cpp.i
+.PHONY : scr/Layers/Layer.i
+
+# target to preprocess a source file
+scr/Layers/Layer.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.i
+.PHONY : scr/Layers/Layer.cpp.i
+
+scr/Layers/Layer.s: scr/Layers/Layer.cpp.s
+.PHONY : scr/Layers/Layer.s
+
+# target to generate assembly for a file
+scr/Layers/Layer.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.s
+.PHONY : scr/Layers/Layer.cpp.s
+
+scr/Layers/LayerStack.o: scr/Layers/LayerStack.cpp.o
+.PHONY : scr/Layers/LayerStack.o
+
+# target to build an object file
+scr/Layers/LayerStack.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o
+.PHONY : scr/Layers/LayerStack.cpp.o
+
+scr/Layers/LayerStack.i: scr/Layers/LayerStack.cpp.i
+.PHONY : scr/Layers/LayerStack.i
+
+# target to preprocess a source file
+scr/Layers/LayerStack.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.i
+.PHONY : scr/Layers/LayerStack.cpp.i
+
+scr/Layers/LayerStack.s: scr/Layers/LayerStack.cpp.s
+.PHONY : scr/Layers/LayerStack.s
+
+# target to generate assembly for a file
+scr/Layers/LayerStack.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.s
+.PHONY : scr/Layers/LayerStack.cpp.s
+
 scr/Platforms/Linux/Lin_Windows.o: scr/Platforms/Linux/Lin_Windows.cpp.o
 .PHONY : scr/Platforms/Linux/Lin_Windows.o
 
@@ -262,6 +310,12 @@ help:
 	@echo "... scr/Engine.o"
 	@echo "... scr/Engine.i"
 	@echo "... scr/Engine.s"
+	@echo "... scr/Layers/Layer.o"
+	@echo "... scr/Layers/Layer.i"
+	@echo "... scr/Layers/Layer.s"
+	@echo "... scr/Layers/LayerStack.o"
+	@echo "... scr/Layers/LayerStack.i"
+	@echo "... scr/Layers/LayerStack.s"
 	@echo "... scr/Platforms/Linux/Lin_Windows.o"
 	@echo "... scr/Platforms/Linux/Lin_Windows.i"
 	@echo "... scr/Platforms/Linux/Lin_Windows.s"
