@@ -154,6 +154,54 @@ scr/Engine.cpp.s:
 	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.s
 .PHONY : scr/Engine.cpp.s
 
+scr/ImGui/ImGuiLayer.o: scr/ImGui/ImGuiLayer.cpp.o
+.PHONY : scr/ImGui/ImGuiLayer.o
+
+# target to build an object file
+scr/ImGui/ImGuiLayer.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o
+.PHONY : scr/ImGui/ImGuiLayer.cpp.o
+
+scr/ImGui/ImGuiLayer.i: scr/ImGui/ImGuiLayer.cpp.i
+.PHONY : scr/ImGui/ImGuiLayer.i
+
+# target to preprocess a source file
+scr/ImGui/ImGuiLayer.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.i
+.PHONY : scr/ImGui/ImGuiLayer.cpp.i
+
+scr/ImGui/ImGuiLayer.s: scr/ImGui/ImGuiLayer.cpp.s
+.PHONY : scr/ImGui/ImGuiLayer.s
+
+# target to generate assembly for a file
+scr/ImGui/ImGuiLayer.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.s
+.PHONY : scr/ImGui/ImGuiLayer.cpp.s
+
+scr/Input/Input.o: scr/Input/Input.cpp.o
+.PHONY : scr/Input/Input.o
+
+# target to build an object file
+scr/Input/Input.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o
+.PHONY : scr/Input/Input.cpp.o
+
+scr/Input/Input.i: scr/Input/Input.cpp.i
+.PHONY : scr/Input/Input.i
+
+# target to preprocess a source file
+scr/Input/Input.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.i
+.PHONY : scr/Input/Input.cpp.i
+
+scr/Input/Input.s: scr/Input/Input.cpp.s
+.PHONY : scr/Input/Input.s
+
+# target to generate assembly for a file
+scr/Input/Input.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.s
+.PHONY : scr/Input/Input.cpp.s
+
 scr/Layers/Layer.o: scr/Layers/Layer.cpp.o
 .PHONY : scr/Layers/Layer.o
 
@@ -310,6 +358,12 @@ help:
 	@echo "... scr/Engine.o"
 	@echo "... scr/Engine.i"
 	@echo "... scr/Engine.s"
+	@echo "... scr/ImGui/ImGuiLayer.o"
+	@echo "... scr/ImGui/ImGuiLayer.i"
+	@echo "... scr/ImGui/ImGuiLayer.s"
+	@echo "... scr/Input/Input.o"
+	@echo "... scr/Input/Input.i"
+	@echo "... scr/Input/Input.s"
 	@echo "... scr/Layers/Layer.o"
 	@echo "... scr/Layers/Layer.i"
 	@echo "... scr/Layers/Layer.s"

@@ -5,8 +5,10 @@
 #include "KeyEvents.h"
 #include "Layers/Layer.h"
 #include "Log.h"
+#include "Platforms/Linux/Lin_Windows.h"
 #include "Window.h"
 #include "Layers/LayerStack.h"
+#include "imgui_impl_glfw.h"
 #include <cstdint>
 #include <iostream>
 #include <memory>
@@ -19,6 +21,10 @@ public:
     Application();
     virtual ~Application(); // must define in Application.cpp
     //
+    static Application* Get();
+
+    GLFWwindow* GetNativeWind_() const {return static_cast<GLFWwindow*>(m_Window->GetNativeWindow());};
+    Window& GetWindow() const {return *m_Window;};
     void init();
     void run();
     void OnEvent(Event& e);
@@ -29,6 +35,7 @@ private:
     std::unique_ptr<Window> m_Window; // okay with forward-declared Window if destructor out-of-line
     LayerStack m_LayerStack;
     bool m_running = true;
+    static Application* s_Instance;
 };
 
 }

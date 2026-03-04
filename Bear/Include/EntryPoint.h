@@ -15,8 +15,9 @@ int main()
     BEAR_INFO("Initialised Logger for the client!"); 
  
     auto app = Bear::CreateApplication();
-    //app->init();
+    app->init();
     app->run();
+
     delete app;
 }
 

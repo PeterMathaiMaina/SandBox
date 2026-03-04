@@ -21,15 +21,23 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
   /home/kelly/SandBox/Bear/Include/Engine.h \
   /home/kelly/SandBox/Bear/Include/EntryPoint.h \
   /home/kelly/SandBox/Bear/Include/Base.h \
+  /home/kelly/SandBox/Bear/Include/Window.h \
   /home/kelly/SandBox/Bear/Include/Events/ApplicationEvents.h \
   /home/kelly/SandBox/Bear/Include/Events/Event.h \
   /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h \
   /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h \
+  /home/kelly/SandBox/Bear/Include/Events/MouseCode.h \
+  /home/kelly/SandBox/Bear/Include/Events/MouseEvent.h \
+  /home/kelly/SandBox/Bear/Include/ImGui/ImGuiLayer.h \
+  /home/kelly/SandBox/Bear/Include/Input.h \
   /home/kelly/SandBox/Bear/Include/Layers/Layer.h \
   /home/kelly/SandBox/Bear/Include/Layers/LayerStack.h \
   /home/kelly/SandBox/Bear/Include/Log.h \
-  /home/kelly/SandBox/Bear/Include/Window.h \
+  /home/kelly/SandBox/Bear/Include/Platforms/Linux/Lin_Windows.h \
   /home/kelly/SandBox/SandBox/Include/ExampleLayer.h \
+  /home/kelly/SandBox/imgui/backends/imgui_impl_glfw.h \
+  /home/kelly/SandBox/imgui/imconfig.h \
+  /home/kelly/SandBox/imgui/imgui.h \
   /usr/include/GL/gl.h \
   /usr/include/GL/glext.h \
   /usr/include/GLFW/glfw3.h \
@@ -359,6 +367,7 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBo
   /usr/include/x86_64-linux-gnu/sys/syscall.h \
   /usr/include/x86_64-linux-gnu/sys/time.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
@@ -778,15 +787,13 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/asm-generic/errno.h:
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/usr/include/syscall.h:
+/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
 
-/usr/include/c++/13/bits/functexcept.h:
-
-/usr/include/c++/13/bits/stl_algobase.h:
+/usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/c++/13/cstdint:
 
@@ -822,8 +829,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/c++/13/bits/ranges_uninitialized.h:
 
-/usr/include/c++/13/bits/ostream_insert.h:
-
 /usr/include/c++/13/bits/ostream.tcc:
 
 /usr/include/c++/13/numbers:
@@ -831,14 +836,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 /usr/include/c++/13/bits/atomic_base.h:
 
 /usr/include/c++/13/bits/uses_allocator_args.h:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/13/bits/utility.h:
-
-/usr/include/c++/13/tr1/beta_function.tcc:
 
 /usr/include/c++/13/bits/move.h:
 
@@ -851,6 +848,10 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 /usr/include/time.h:
 
 /usr/include/c++/13/bits/locale_facets_nonio.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/c++/13/bits/locale_facets_nonio.h:
 
 /usr/include/c++/13/bits/locale_facets.h:
 
@@ -886,10 +887,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/c++/13/bits/ranges_util.h:
 
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/asm-generic/errno-base.h:
-
 /usr/include/c++/13/bits/ranges_cmp.h:
 
 /usr/include/c++/13/bits/predefined_ops.h:
@@ -902,25 +899,39 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/c++/13/bits/enable_special_members.h:
 
-/usr/include/c++/13/utility:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/usr/include/c++/13/bits/stl_heap.h:
+/usr/include/c++/13/bits/chrono.h:
 
-/usr/include/c++/13/bits/std_abs.h:
+/usr/include/c++/13/bits/basic_ios.tcc:
 
-/usr/include/c++/13/bits/parse_numbers.h:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/c++/13/bits/locale_facets.tcc:
+/usr/include/c++/13/bits/requires_hosted.h:
 
-/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/backtracer.h:
+/usr/include/GL/gl.h:
 
-/home/kelly/SandBox/Bear/Include/Layers/LayerStack.h:
+/usr/include/c++/13/pstl/execution_defs.h:
 
-/usr/include/c++/13/bits/codecvt.h:
+/usr/include/wchar.h:
+
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/home/kelly/SandBox/Bear/Include/Input.h:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/usr/include/c++/13/tr1/ell_integral.tcc:
 
 /usr/include/c++/13/bits/exception_ptr.h:
 
 /home/kelly/SandBox/Bear/Include/Events/ApplicationEvents.h:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/c++/13/tuple:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
@@ -932,6 +943,16 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/usr/include/syscall.h:
+
 /usr/include/c++/13/bits/exception.h:
 
 /usr/include/c++/13/bits/memory_resource.h:
@@ -940,9 +961,19 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/common.h:
 
+/usr/include/c++/13/bits/locale_facets.tcc:
+
+/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/backtracer.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/usr/include/c++/13/bits/parse_numbers.h:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/c++/13/bits/node_handle.h:
+
+/usr/include/c++/13/bits/functexcept.h:
 
 /usr/include/c++/13/iosfwd:
 
@@ -951,6 +982,8 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 /usr/include/c++/13/bits/sstream.tcc:
 
 /usr/include/c++/13/cwctype:
+
+/home/kelly/SandBox/Bear/Include/ImGui/ImGuiLayer.h:
 
 /usr/include/c++/13/bits/hashtable_policy.h:
 
@@ -980,11 +1013,33 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/c++/13/ext/string_conversions.h:
 
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/home/kelly/SandBox/Bear/Include/Base.h:
+
+/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/log_msg.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/spdlog.h:
+
+/usr/include/c++/13/bits/chrono_io.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/13/bits/exception_defines.h:
+
+/home/kelly/SandBox/Bear/Include/Events/KeyEvents.h:
+
+/home/kelly/SandBox/SandBox/Include/ExampleLayer.h:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/c++/13/bits/locale_classes.h:
-
-/usr/include/c++/13/bits/stl_bvector.h:
 
 /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/log_msg_buffer.h:
 
@@ -1000,58 +1055,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/c++/13/array:
 
-/usr/include/c++/13/bits/cxxabi_forced.h:
-
-/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/fmt/bundled/format.h:
-
-/usr/include/c++/13/bits/hash_bytes.h:
-
-/home/kelly/SandBox/SandBox/scr/Application.cpp:
-
-/usr/include/pthread.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/spdlog.h:
-
-/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/log_msg.h:
-
-/usr/include/alloca.h:
-
-/home/kelly/SandBox/Bear/Include/Base.h:
-
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/c++/13/cerrno:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
-/usr/include/GL/gl.h:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/usr/include/c++/13/pstl/execution_defs.h:
-
-/usr/include/c++/13/cassert:
-
-/usr/include/c++/13/bits/cpp_type_traits.h:
-
-/usr/include/assert.h:
-
-/usr/include/c++/13/backward/auto_ptr.h:
-
-/home/kelly/SandBox/SandBox/Include/ExampleLayer.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/13/bits/exception_defines.h:
-
-/home/kelly/SandBox/Bear/Include/Events/KeyEvents.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/c++/13/bits/charconv.h:
@@ -1064,7 +1067,37 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/c++/13/cstdio:
 
+/home/kelly/SandBox/Bear/Include/Events/MouseCode.h:
+
+/usr/include/c++/13/bits/cxxabi_forced.h:
+
+/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/fmt/bundled/format.h:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/home/kelly/SandBox/SandBox/scr/Application.cpp:
+
+/usr/include/pthread.h:
+
+/home/kelly/SandBox/Bear/Include/Events/MouseEvent.h:
+
+/usr/include/c++/13/cerrno:
+
+/usr/include/c++/13/bits/codecvt.h:
+
+/home/kelly/SandBox/imgui/backends/imgui_impl_glfw.h:
+
+/usr/include/semaphore.h:
+
+/home/kelly/SandBox/Bear/Include/Layers/LayerStack.h:
+
+/usr/include/c++/13/cassert:
+
+/usr/include/c++/13/bits/cpp_type_traits.h:
+
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/home/kelly/SandBox/Bear/Include/Platforms/Linux/Lin_Windows.h:
 
 /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/registry.h:
 
@@ -1076,25 +1109,15 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/c++/13/clocale:
 
-/usr/include/c++/13/tuple:
+/usr/include/assert.h:
 
-/usr/include/c++/13/bits/nested_exception.h:
+/usr/include/c++/13/backward/auto_ptr.h:
 
-/usr/include/c++/13/bits/atomic_timed_wait.h:
-
-/usr/include/c++/13/tr1/exp_integral.tcc:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/13/bits/shared_ptr_base.h:
-
-/usr/include/c++/13/bits/basic_ios.h:
+/usr/include/c++/13/bits/stl_vector.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
 /usr/include/c++/13/bits/specfun.h:
-
-/usr/include/c++/13/atomic:
 
 /usr/include/c++/13/bits/basic_string.h:
 
@@ -1102,17 +1125,29 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/libintl.h:
 
-/usr/include/c++/13/bits/chrono_io.h:
-
-/usr/include/c++/13/bits/atomic_lockfree_defines.h:
+/usr/include/c++/13/atomic:
 
 /usr/include/KHR/khrplatform.h:
 
-/usr/include/c++/13/bits/stl_vector.h:
+/usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/usr/include/c++/13/bits/atomic_timed_wait.h:
 
-/usr/include/c++/13/bits/chrono.h:
+/usr/include/c++/13/tr1/exp_integral.tcc:
+
+/usr/include/c++/13/bits/stl_algobase.h:
+
+/usr/include/c++/13/bits/stl_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/13/bits/utility.h:
+
+/usr/include/c++/13/tr1/beta_function.tcc:
+
+/usr/include/c++/13/utility:
+
+/usr/include/c++/13/bits/stl_heap.h:
 
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
@@ -1136,11 +1171,13 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
 
+/home/kelly/SandBox/imgui/imconfig.h:
+
 /usr/include/c++/13/ostream:
 
-/usr/include/c++/13/bits/locale_facets_nonio.h:
+/usr/include/x86_64-linux-gnu/asm/unistd.h:
 
-/usr/include/x86_64-linux-gnu/bits/confname.h:
+/usr/include/c++/13/tr1/riemann_zeta.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -1232,11 +1269,13 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/c++/13/functional:
 
+/usr/include/c++/13/tr1/bessel_function.tcc:
+
 /usr/include/c++/13/bits/std_thread.h:
 
-/usr/include/limits.h:
+/home/kelly/SandBox/imgui/imgui.h:
 
-/usr/include/c++/13/tr1/bessel_function.tcc:
+/usr/include/limits.h:
 
 /usr/include/c++/13/initializer_list:
 
@@ -1292,8 +1331,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/c++/13/thread:
 
-/usr/include/c++/13/tr1/ell_integral.tcc:
-
 /usr/include/c++/13/bits/range_access.h:
 
 /usr/include/c++/13/tr1/hypergeometric.tcc:
@@ -1317,6 +1354,8 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 /usr/include/c++/13/unordered_map:
 
 /usr/include/c++/13/vector:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
 
 /usr/include/ctype.h:
 
@@ -1342,8 +1381,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 
 /usr/include/sched.h:
 
-/usr/include/semaphore.h:
-
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
 
 /usr/include/stdio.h:
@@ -1351,13 +1388,3 @@ SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBo
 /usr/include/stdlib.h:
 
 /usr/include/string.h:
-
-/usr/include/c++/13/tr1/riemann_zeta.tcc:
-
-/usr/include/x86_64-linux-gnu/asm/unistd.h:
-
-/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:

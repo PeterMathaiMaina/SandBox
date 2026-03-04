@@ -1,11 +1,10 @@
 #pragma once
 #include "Layers/Layer.h"
-class ExampleLayer : public Bear::Layer
-{
+class ExampleLayer : public Bear::Layer {
 public:
-    ExampleLayer();
+  ExampleLayer();
 
-    void OnUpdate() override;
-    void OnEvent(Bear::Event& e) override;
-    bool IfOverlay() const;
+  void OnUpdate() override;
+  void OnEvent(Bear::Event &e) override;
+  bool IfOverlay() const;
 };

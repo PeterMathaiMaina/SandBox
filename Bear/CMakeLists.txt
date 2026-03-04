@@ -1,4 +1,5 @@
 # /GameEngine/CMakeLists.txt
+# /GameEngine/CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.10)
 project(Bear)
@@ -31,6 +32,9 @@ add_library(Bear SHARED
     scr/Window/Window.cpp
     scr/Layers/Layer.cpp
     scr/Layers/LayerStack.cpp
+    scr/ImGui/ImGuiLayer.cpp
+    scr/Input/Input.cpp
+
 )
 add_subdirectory(vendor/spdlog)
 
@@ -44,6 +48,7 @@ target_include_directories(Bear
 
 target_link_libraries(Bear
     PUBLIC
+        imgui
         spdlog::spdlog   # <-- THIS is what propagates spdlog headers
         glfw
         OpenGL::GL

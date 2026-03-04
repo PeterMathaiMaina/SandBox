@@ -73,29 +73,29 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: SandBox/CMakeFiles/SandBox
 SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: /home/kelly/SandBox/SandBox/scr/Application.cpp
 SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: SandBox/CMakeFiles/SandBox.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o"
-	cd /home/kelly/SandBox/build/SandBox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o -MF CMakeFiles/SandBox.dir/scr/Application.cpp.o.d -o CMakeFiles/SandBox.dir/scr/Application.cpp.o -c /home/kelly/SandBox/SandBox/scr/Application.cpp
+	cd /home/kelly/SandBox/build/SandBox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o -MF CMakeFiles/SandBox.dir/scr/Application.cpp.o.d -o CMakeFiles/SandBox.dir/scr/Application.cpp.o -c /home/kelly/SandBox/SandBox/scr/Application.cpp
 
 SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SandBox.dir/scr/Application.cpp.i"
-	cd /home/kelly/SandBox/build/SandBox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelly/SandBox/SandBox/scr/Application.cpp > CMakeFiles/SandBox.dir/scr/Application.cpp.i
+	cd /home/kelly/SandBox/build/SandBox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelly/SandBox/SandBox/scr/Application.cpp > CMakeFiles/SandBox.dir/scr/Application.cpp.i
 
 SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SandBox.dir/scr/Application.cpp.s"
-	cd /home/kelly/SandBox/build/SandBox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelly/SandBox/SandBox/scr/Application.cpp -o CMakeFiles/SandBox.dir/scr/Application.cpp.s
+	cd /home/kelly/SandBox/build/SandBox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelly/SandBox/SandBox/scr/Application.cpp -o CMakeFiles/SandBox.dir/scr/Application.cpp.s
 
 SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: SandBox/CMakeFiles/SandBox.dir/flags.make
 SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: /home/kelly/SandBox/SandBox/scr/Layers/ExampleLayer.cpp
 SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o: SandBox/CMakeFiles/SandBox.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o"
-	cd /home/kelly/SandBox/build/SandBox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o -MF CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o.d -o CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o -c /home/kelly/SandBox/SandBox/scr/Layers/ExampleLayer.cpp
+	cd /home/kelly/SandBox/build/SandBox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o -MF CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o.d -o CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o -c /home/kelly/SandBox/SandBox/scr/Layers/ExampleLayer.cpp
 
 SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.i"
-	cd /home/kelly/SandBox/build/SandBox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelly/SandBox/SandBox/scr/Layers/ExampleLayer.cpp > CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.i
+	cd /home/kelly/SandBox/build/SandBox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelly/SandBox/SandBox/scr/Layers/ExampleLayer.cpp > CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.i
 
 SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.s"
-	cd /home/kelly/SandBox/build/SandBox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelly/SandBox/SandBox/scr/Layers/ExampleLayer.cpp -o CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.s
+	cd /home/kelly/SandBox/build/SandBox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelly/SandBox/SandBox/scr/Layers/ExampleLayer.cpp -o CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.s
 
 # Object files for target SandBox
 SandBox_OBJECTS = \
@@ -109,7 +109,8 @@ SandBox/SandBox: SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o
 SandBox/SandBox: SandBox/CMakeFiles/SandBox.dir/scr/Layers/ExampleLayer.cpp.o
 SandBox/SandBox: SandBox/CMakeFiles/SandBox.dir/build.make
 SandBox/SandBox: Bear/libBear.so
-SandBox/SandBox: Bear/vendor/spdlog/libspdlog.so.1.16.0
+SandBox/SandBox: imgui/libimgui.a
+SandBox/SandBox: Bear/vendor/spdlog/libspdlogd.so.1.16.0
 SandBox/SandBox: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 SandBox/SandBox: /usr/lib/x86_64-linux-gnu/libGL.so
 SandBox/SandBox: /usr/lib/x86_64-linux-gnu/libGLEW.so

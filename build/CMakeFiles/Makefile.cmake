@@ -16,6 +16,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
+  "/home/kelly/SandBox/imgui/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/assimp-5.3/assimpConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/assimp-5.3/assimpConfigVersion.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/assimp-5.3/assimpTargets-none.cmake"
@@ -67,6 +68,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "imgui/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Bear/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Bear/vendor/spdlog/CMakeFiles/CMakeDirectoryInformation.cmake"
   "SandBox/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -74,6 +76,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   "Bear/CMakeFiles/Bear.dir/DependInfo.cmake"
   "Bear/vendor/spdlog/CMakeFiles/spdlog.dir/DependInfo.cmake"
   "SandBox/CMakeFiles/SandBox.dir/DependInfo.cmake"

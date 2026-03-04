@@ -1,3 +1,59 @@
 CompileFlags:
-  Add: [-I/home/kelly/vcpkg-master/installed/x64-linux/include]
+  # These extend CMake flags (do NOT replace compile_commands.json)
+  Add:
+    - -std=c++20
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+    - -Wshadow
+    - -Wconversion
+    - -Wsign-conversion
+    - -Wold-style-cast
+    - -Woverloaded-virtual
+    - -Wnon-virtual-dtor
+    - -Wnull-dereference
+    - -Wunused
+    - -Winvalid-pch
 
+  # Avoid breaking builds via LSP diagnostics
+  Remove:
+    - -Werror
+
+# Automatically find compile_commands.json in build/
+CompileFlags:
+  CompilationDatabase: build
+
+# Smarter include insertion
+HeaderInsertion: iwyu
+
+# Completion improvements
+Completion:
+  AllScopes: true
+  ArgumentLists: FullPlaceholders
+
+# Diagnostics configuration
+Diagnostics:
+  Suppress:
+    - unused-parameter  # common in OpenGL callbacks
+
+  ClangTidy:
+    Add:
+      - bugprone-*
+      - performance-*
+      - modernize-*
+    Remove:
+      - modernize-use-trailing-return-type
+      - readability-magic-numbers
+      - cppcoreguidelines-avoid-magic-numbers
+
+# Inlay hints (great with Neovim 0.10+)
+InlayHints:
+  Enabled: true
+  ParameterNames: true
+  DeducedTypes: true
+  Designators: true
+
+# Faster indexing
+Index:
+  Background: Build
+  StandardLibrary: true
