@@ -221,6 +221,8 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: \
  /home/kelly/SandBox/SandBox/../Bear/Include/Engine.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Events/KeyEvents.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Events/KeyCodes.h \
+ /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
+ /usr/include/KHR/khrplatform.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Layers/Layer.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Log.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/logger.h \
@@ -290,8 +292,6 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/version.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Platforms/Linux/Lin_Windows.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Events/../Window.h \
- /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
- /usr/include/KHR/khrplatform.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Layers/LayerStack.h \
  /home/kelly/SandBox/imgui/backends/imgui_impl_glfw.h \
  /home/kelly/SandBox/imgui/imgui.h /home/kelly/SandBox/imgui/imconfig.h \

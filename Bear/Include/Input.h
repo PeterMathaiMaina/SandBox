@@ -11,8 +11,8 @@ namespace Bear{
   class Input {
   public:
     Input() = default;
-    static bool IsMousePressed(MouseCode& button);
-    static bool IsKeyPressed(KeyCode& button);
+    static bool IsMousePressed(MouseCode button);
+    static bool IsKeyPressed(KeyCode button);
     static float GetXPos();
     static float GetYPos();
     static std::pair<float, float> GetMousePosition();

@@ -23,6 +23,9 @@ Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/GLFW/glfw3.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h /usr/include/GL/gl.h \
+ /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
  /home/kelly/SandBox/Bear/Include/Events/MouseCode.h \
  /home/kelly/SandBox/Bear/Include/Window.h \
  /home/kelly/SandBox/Bear/Include/Events/Event.h \
@@ -68,7 +71,6 @@ Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o: \
  /usr/include/c++/13/bits/range_access.h \
  /usr/include/c++/13/bits/erase_if.h \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/include/c++/13/bits/uses_allocator_args.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
@@ -254,8 +256,6 @@ Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o: \
  /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h \
  /home/kelly/SandBox/Bear/Include/Layers/Layer.h \
  /home/kelly/SandBox/Bear/Include/Platforms/Linux/Lin_Windows.h \
- /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
- /usr/include/KHR/khrplatform.h \
  /home/kelly/SandBox/Bear/Include/Layers/LayerStack.h \
  /home/kelly/SandBox/imgui/backends/imgui_impl_glfw.h \
  /home/kelly/SandBox/imgui/imgui.h /home/kelly/SandBox/imgui/imconfig.h \

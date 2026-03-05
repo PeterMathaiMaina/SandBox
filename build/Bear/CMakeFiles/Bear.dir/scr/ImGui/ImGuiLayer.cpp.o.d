@@ -192,7 +192,9 @@ Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o: \
  /usr/include/c++/13/bits/sstream.tcc \
  /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h \
  /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h \
- /usr/include/c++/13/cstdint \
+ /usr/include/c++/13/cstdint /usr/include/GLFW/glfw3.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h \
+ /usr/include/KHR/khrplatform.h \
  /home/kelly/SandBox/Bear/Include/Layers/Layer.h \
  /home/kelly/SandBox/Bear/Include/Events/MouseEvent.h \
  /home/kelly/SandBox/Bear/Include/Events/MouseCode.h \
@@ -263,7 +265,5 @@ Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o: \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/version.h \
  /home/kelly/SandBox/Bear/Include/Platforms/Linux/Lin_Windows.h \
  /home/kelly/SandBox/Bear/Include/Events/../Window.h \
- /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
- /usr/include/KHR/khrplatform.h \
  /home/kelly/SandBox/Bear/Include/Layers/LayerStack.h \
  /usr/include/c++/13/iostream

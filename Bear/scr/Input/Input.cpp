@@ -10,7 +10,7 @@
 
 namespace Bear {
   Input* Input::s_Instance = new Input(); 
-  bool Input::IsKeyPressed(KeyCode& button){
+  bool Input::IsKeyPressed(KeyCode button){
     auto& window  = Application::Get()->GetWindow();
     
     int state = glfwGetKey(static_cast<GLFWwindow*>(window.GetNativeWindow()), static_cast<int>(button));
@@ -18,8 +18,10 @@ namespace Bear {
   }
 
   std::pair<float,float> Input::GetMousePosition(){
-    double X,Y;
-    return std::make_pair((float)X,(float)Y);
+    double xpos,ypos;
+    GLFWwindow* window = static_cast<GLFWwindow*>(Application::Get()->GetNativeWind_());
+    glfwGetCursorPos(window,&xpos, &ypos);
+    return std::make_pair((float)xpos,(float)ypos);
   }
   float Input::GetXPos(){
     auto[x,y] = GetMousePosition();
@@ -29,7 +31,7 @@ namespace Bear {
     auto[x,y] = GetMousePosition();
     return y;
   }
-  bool Input::IsMousePressed(MouseCode &button){
+  bool Input::IsMousePressed(MouseCode button){
     GLFWwindow* native_window  = static_cast<GLFWwindow*>(Application::Get()->GetWindow().GetNativeWindow());
     int state = glfwGetMouseButton(native_window,static_cast<int>(button));
     return state == GLFW_PRESS || state == GLFW_REPEAT;

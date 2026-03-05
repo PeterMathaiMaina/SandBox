@@ -4,6 +4,7 @@
 #include "Event.h"
 #include "ExampleLayer.h"
 #include "ImGui/ImGuiLayer.h"
+#include "KeyCodes.h"
 #include "Layers/Layer.h"
 #include "Layers/LayerStack.h"
 #include "Log.h"
@@ -62,7 +63,6 @@ Application *Application::Get() { return s_Instance; }
 void Application::OnEvent(Event &e) {
   EventDispatcher dispatcher(e);
   dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FUNC(OnWindowClose));
-  BEAR_INFO("{0} ", e.GetName());
 
   for (auto it = m_LayerStack.End(); it != m_LayerStack.Begin();) {
     (*--it)->OnEvent(e);
@@ -93,27 +93,19 @@ void Application::run() {
 
   KeyPressedEvent e(static_cast<KeyCode>(keycode), false);
 
-  if (e.IsInCategory(EventCategoryApplication))
-    BEAR_CORE_TRACE("The event is in Application category");
-  else
-    BEAR_CORE_TRACE("The event is NOT in Application category");
+  float frame_time = 0.0f;
 
   while (m_running) {
     m_Window->OnUpdate();
     for (Layer *layer : m_LayerStack) {
       layer->OnUpdate();
     }
-    MouseCode button{};
-    if(Input::IsMousePressed(button)){
-      std::cout<<"mouse has beeen pressed "<<std::endl;
 
-    }
   }
 }
-
 bool Application::OnWindowClose(WindowCloseEvent &e) {
   m_running = false;
   return true;
 }
 
-} // namespace Bear
+}
