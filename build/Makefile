@@ -168,6 +168,19 @@ SandBox/fast:
 	$(MAKE) $(MAKESILENT) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/build
 .PHONY : SandBox/fast
 
+#=============================================================================
+# Target rules for targets named glm
+
+# Build rule for target.
+glm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glm
+.PHONY : glm
+
+# fast build rule for target.
+glm/fast:
+	$(MAKE) $(MAKESILENT) -f glm/glm/CMakeFiles/glm.dir/build.make glm/glm/CMakeFiles/glm.dir/build
+.PHONY : glm/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -178,6 +191,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Bear"
 	@echo "... SandBox"
+	@echo "... glm"
 	@echo "... imgui"
 	@echo "... spdlog"
 .PHONY : help

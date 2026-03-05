@@ -47,6 +47,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/kelly/SandBox/build/imgui/cmake_install.cmake")
   include("/home/kelly/SandBox/build/Bear/cmake_install.cmake")
   include("/home/kelly/SandBox/build/SandBox/cmake_install.cmake")
+  include("/home/kelly/SandBox/build/glm/cmake_install.cmake")
 
 endif()
 

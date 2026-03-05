@@ -114,6 +114,7 @@ SandBox/SandBox: Bear/vendor/spdlog/libspdlogd.so.1.16.0
 SandBox/SandBox: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 SandBox/SandBox: /usr/lib/x86_64-linux-gnu/libGL.so
 SandBox/SandBox: /usr/lib/x86_64-linux-gnu/libGLEW.so
+SandBox/SandBox: glm/glm/libglm.a
 SandBox/SandBox: SandBox/CMakeFiles/SandBox.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SandBox"
 	cd /home/kelly/SandBox/build/SandBox && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SandBox.dir/link.txt --verbose=$(VERBOSE)

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DBear_EXPORTS -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_SHARED_LIB
 
-CXX_INCLUDES = -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/Include/Events -I/home/kelly/SandBox/imgui -I/home/kelly/SandBox/imgui/backends -I/home/kelly/SandBox/Bear/vendor/spdlog/include
+CXX_INCLUDES = -I/home/kelly/SandBox/Bear/Include -I/home/kelly/SandBox/Bear/Include/Events -I/home/kelly/SandBox/imgui -I/home/kelly/SandBox/imgui/backends -I/home/kelly/SandBox/Bear/vendor/spdlog/include -I/home/kelly/SandBox/glm
 
 CXX_FLAGS = -g -std=gnu++17 -fPIC
 

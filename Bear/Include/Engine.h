@@ -2,6 +2,7 @@
 
 #include "Events/ApplicationEvents.h"
 #include "Event.h"
+#include "ImGui/ImGuiLayer.h"
 #include "KeyEvents.h"
 #include "Layers/Layer.h"
 #include "Log.h"
@@ -33,6 +34,7 @@ public:
     bool OnWindowClose(WindowCloseEvent& e);
 private:
     std::unique_ptr<Window> m_Window; // okay with forward-declared Window if destructor out-of-line
+    ImGuiLayer* m_ImguiLayer;
     LayerStack m_LayerStack;
     bool m_running = true;
     static Application* s_Instance;

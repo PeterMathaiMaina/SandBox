@@ -12,3 +12,8 @@
 /home/kelly/SandBox/build/SandBox/CMakeFiles/SandBox.dir
 /home/kelly/SandBox/build/SandBox/CMakeFiles/edit_cache.dir
 /home/kelly/SandBox/build/SandBox/CMakeFiles/rebuild_cache.dir
+/home/kelly/SandBox/build/glm/CMakeFiles/edit_cache.dir
+/home/kelly/SandBox/build/glm/CMakeFiles/rebuild_cache.dir
+/home/kelly/SandBox/build/glm/glm/CMakeFiles/glm.dir
+/home/kelly/SandBox/build/glm/glm/CMakeFiles/edit_cache.dir
+/home/kelly/SandBox/build/glm/glm/CMakeFiles/rebuild_cache.dir

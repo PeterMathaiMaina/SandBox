@@ -5,11 +5,14 @@ Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o: /home/kelly/SandBox/Bear/scr/Engine.c
   /home/kelly/SandBox/Bear/Include/Window.h \
   /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h \
   /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h \
+  /home/kelly/SandBox/Bear/Include/Events/MouseCode.h \
+  /home/kelly/SandBox/Bear/Include/Events/MouseEvent.h \
+  /home/kelly/SandBox/Bear/Include/Layers/Layer.h \
   /home/kelly/SandBox/Bear/Include/Engine.h \
   /home/kelly/SandBox/Bear/Include/Base.h \
   /home/kelly/SandBox/Bear/Include/Events/ApplicationEvents.h \
   /home/kelly/SandBox/Bear/Include/Events/Event.h \
-  /home/kelly/SandBox/Bear/Include/Layers/Layer.h \
+  /home/kelly/SandBox/Bear/Include/ImGui/ImGuiLayer.h \
   /home/kelly/SandBox/Bear/Include/Layers/LayerStack.h \
   /home/kelly/SandBox/Bear/Include/Log.h \
   /home/kelly/SandBox/Bear/Include/Platforms/Linux/Lin_Windows.h \
@@ -320,6 +323,113 @@ Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o: /home/kelly/SandBox/Bear/scr/Engine.c
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+
+Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o: /home/kelly/SandBox/Bear/scr/ImGui/ImGuiBuild.cpp \
+  /home/kelly/SandBox/imgui/backends/imgui_impl_glfw.cpp \
+  /home/kelly/SandBox/imgui/backends/imgui_impl_glfw.h \
+  /home/kelly/SandBox/imgui/backends/imgui_impl_opengl3.cpp \
+  /home/kelly/SandBox/imgui/backends/imgui_impl_opengl3.h \
+  /home/kelly/SandBox/imgui/backends/imgui_impl_opengl3_loader.h \
+  /home/kelly/SandBox/imgui/imconfig.h \
+  /home/kelly/SandBox/imgui/imgui.h \
+  /usr/include/GLFW/glfw3.h \
+  /usr/include/GLFW/glfw3native.h \
+  /usr/include/X11/X.h \
+  /usr/include/X11/Xatom.h \
+  /usr/include/X11/Xdefs.h \
+  /usr/include/X11/Xfuncproto.h \
+  /usr/include/X11/Xlib.h \
+  /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h \
+  /usr/include/X11/extensions/Xrandr.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/randr.h \
+  /usr/include/X11/extensions/render.h \
+  /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h \
+  /usr/include/alloca.h \
+  /usr/include/assert.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdlib.h \
+  /usr/include/dlfcn.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/dl_find_object.h \
+  /usr/include/x86_64-linux-gnu/bits/dlfcn.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
 Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o: /home/kelly/SandBox/Bear/scr/ImGui/ImGuiLayer.cpp \
   /home/kelly/SandBox/Bear/Include/Engine.h \
@@ -653,6 +763,8 @@ Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o: /home/kelly/SandBox/Bear/scr/Inp
   /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h \
   /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h \
   /home/kelly/SandBox/Bear/Include/Events/MouseCode.h \
+  /home/kelly/SandBox/Bear/Include/Events/MouseEvent.h \
+  /home/kelly/SandBox/Bear/Include/ImGui/ImGuiLayer.h \
   /home/kelly/SandBox/Bear/Include/Input.h \
   /home/kelly/SandBox/Bear/Include/Layers/Layer.h \
   /home/kelly/SandBox/Bear/Include/Layers/LayerStack.h \
@@ -2360,15 +2472,47 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /home/kelly/SandBox/Bear/scr/Input/Input.cpp:
 
-/home/kelly/SandBox/imgui/backends/imgui_impl_opengl3.h:
-
-/home/kelly/SandBox/Bear/Include/ImGui/ImGuiLayer.h:
-
-/home/kelly/SandBox/Bear/Include/Events/MouseEvent.h:
-
 /home/kelly/SandBox/Bear/scr/ImGui/ImGuiLayer.cpp:
 
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/dlfcn.h:
+
+/usr/include/x86_64-linux-gnu/bits/dl_find_object.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/unistd.h:
+
+/usr/include/linux/close_range.h:
+
+/usr/include/X11/keysymdef.h:
+
+/usr/include/X11/extensions/randr.h:
+
+/usr/include/X11/Xosdefs.h:
+
+/usr/include/X11/Xlib.h:
+
+/usr/include/X11/Xfuncproto.h:
+
+/usr/include/X11/Xdefs.h:
+
+/home/kelly/SandBox/imgui/backends/imgui_impl_opengl3_loader.h:
+
+/home/kelly/SandBox/imgui/backends/imgui_impl_opengl3.h:
+
+/home/kelly/SandBox/imgui/backends/imgui_impl_glfw.cpp:
+
+/home/kelly/SandBox/Bear/scr/ImGui/ImGuiBuild.cpp:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
@@ -2401,6 +2545,8 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/X11/extensions/Xrandr.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
@@ -2444,11 +2590,9 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
-/usr/include/c++/13/bits/unique_ptr.h:
-
-/usr/include/c++/13/bits/align.h:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
@@ -2478,15 +2622,13 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /usr/include/c++/13/bits/erase_if.h:
 
-/usr/include/c++/13/bits/stringfwd.h:
-
 /usr/include/c++/13/bits/this_thread_sleep.h:
 
 /usr/include/c++/13/bits/shared_ptr.h:
 
-/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/periodic_worker.h:
+/usr/include/X11/X.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/periodic_worker.h:
 
 /usr/include/c++/13/bits/refwrap.h:
 
@@ -2536,47 +2678,11 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /usr/include/math.h:
 
-/usr/include/c++/13/bits/stl_vector.h:
-
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
-/home/kelly/SandBox/imgui/backends/imgui_impl_glfw.h:
-
-/usr/include/c++/13/bits/locale_facets.tcc:
-
-/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/backtracer.h:
-
-/usr/include/c++/13/bits/stl_bvector.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/spdlog.h:
-
-/usr/include/c++/13/cerrno:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/tweakme.h:
-
-/home/kelly/SandBox/Bear/Include/Events/MouseCode.h:
-
-/usr/include/c++/13/bits/cxxabi_forced.h:
-
 /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/fmt/bundled/format.h:
 
 /usr/include/c++/13/bits/sstream.tcc:
 
 /usr/include/c++/13/cwctype:
-
-/usr/include/c++/13/bits/hash_bytes.h:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/c++/13/array:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/asm-generic/errno-base.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
@@ -2584,29 +2690,75 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /usr/include/c++/13/bits/stl_algo.h:
 
-/home/kelly/SandBox/Bear/Include/Events/Event.h:
+/usr/include/c++/13/cstddef:
+
+/usr/include/X11/keysym.h:
+
+/usr/include/c++/13/ext/string_conversions.h:
+
+/usr/include/c++/13/bits/locale_facets.tcc:
+
+/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/backtracer.h:
 
 /usr/include/GL/glext.h:
 
-/usr/include/c++/13/cstddef:
-
-/usr/include/alloca.h:
-
-/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/log_msg.h:
-
-/usr/include/c++/13/ext/string_conversions.h:
+/home/kelly/SandBox/Bear/Include/Events/Event.h:
 
 /usr/include/c++/13/bits/std_abs.h:
 
 /usr/include/c++/13/bits/parse_numbers.h:
 
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/13/bits/node_handle.h:
+
+/usr/include/c++/13/bits/cxxabi_forced.h:
+
+/home/kelly/SandBox/Bear/Include/Events/MouseCode.h:
+
+/usr/include/c++/13/tr1/ell_integral.tcc:
+
+/usr/include/dlfcn.h:
+
 /home/kelly/SandBox/Bear/Include/Layers/LayerStack.h:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/usr/include/X11/Xutil.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/spdlog.h:
+
+/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/log_msg.h:
+
+/usr/include/alloca.h:
+
+/usr/include/c++/13/cerrno:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+
+/home/kelly/SandBox/Bear/Include/Events/MouseEvent.h:
 
 /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h:
 
 /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/log_msg_buffer.h:
 
 /usr/include/c++/13/bits/predefined_ops.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/13/condition_variable:
+
+/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/circular_q.h:
+
+/usr/include/c++/13/iosfwd:
+
+/usr/include/c++/13/bits/align.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/13/bits/unique_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -2624,31 +2776,11 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h:
 
+/usr/include/c++/13/bits/stringfwd.h:
+
 /usr/include/c++/13/bits/uniform_int_dist.h:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/c++/13/bits/node_handle.h:
-
-/usr/include/c++/13/iosfwd:
-
-/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/circular_q.h:
-
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/home/kelly/SandBox/Bear/Include/Base.h:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/c++/13/bits/memory_resource.h:
-
-/usr/include/c++/13/streambuf:
-
-/usr/include/c++/13/condition_variable:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/common.h:
 
@@ -2659,6 +2791,14 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 /usr/include/c++/13/bits/concept_check.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/X11/Xatom.h:
+
+/usr/include/c++/13/bits/memory_resource.h:
+
+/usr/include/c++/13/streambuf:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -2673,6 +2813,10 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 /usr/include/c++/13/bits/algorithmfwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/home/kelly/SandBox/Bear/Include/Base.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -2702,7 +2846,33 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /usr/include/c++/13/bits/move.h:
 
+/usr/include/X11/extensions/render.h:
+
 /home/kelly/SandBox/Bear/scr/Engine.cpp:
+
+/usr/include/c++/13/bits/stl_vector.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/home/kelly/SandBox/imgui/backends/imgui_impl_glfw.h:
+
+/home/kelly/SandBox/Bear/Include/ImGui/ImGuiLayer.h:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/tweakme.h:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/13/array:
 
 /home/kelly/SandBox/imgui/imconfig.h:
 
@@ -2750,10 +2920,6 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/c++/13/bits/unique_lock.h:
-
-/usr/include/c++/13/mutex:
-
 /usr/include/wchar.h:
 
 /usr/include/c++/13/bits/shared_ptr_base.h:
@@ -2770,13 +2936,19 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /usr/include/c++/13/tr1/poly_laguerre.tcc:
 
+/usr/include/c++/13/bits/chrono.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
 /usr/include/c++/13/backward/binders.h:
 
 /home/kelly/SandBox/Bear/Include/Layers/Layer.h:
 
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/usr/include/c++/13/bits/unique_lock.h:
 
-/usr/include/c++/13/bits/chrono.h:
+/home/kelly/SandBox/imgui/backends/imgui_impl_opengl3.cpp:
+
+/usr/include/c++/13/mutex:
 
 /usr/include/c++/13/bits/unordered_map.h:
 
@@ -2819,10 +2991,6 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 /home/kelly/SandBox/Bear/Include/Log.h:
 
 /usr/include/c++/13/debug/assertions.h:
-
-/usr/include/c++/13/bits/stl_pair.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/c++/13/ext/aligned_buffer.h:
 
@@ -2876,8 +3044,6 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /usr/include/strings.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
 /usr/include/c++/13/pstl/pstl_config.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
@@ -2897,8 +3063,6 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 /usr/include/features-time64.h:
 
 /usr/include/c++/13/thread:
-
-/usr/include/c++/13/tr1/ell_integral.tcc:
 
 /usr/include/c++/13/tr1/exp_integral.tcc:
 
@@ -2966,6 +3130,8 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /usr/include/pthread.h:
 
+/usr/include/GLFW/glfw3native.h:
+
 /usr/include/wctype.h:
 
 /usr/include/sched.h:
@@ -2998,9 +3164,13 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/W
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
+/usr/include/X11/extensions/Xrender.h:
+
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/time.h:
 

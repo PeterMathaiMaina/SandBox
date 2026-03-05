@@ -12,35 +12,26 @@
 #include "Window.h"
 #include <GLFW/glfw3.h>
 #include <cstddef>
+#include <glm/ext/matrix_float4x4.hpp>
 #include <iostream>
 #include <memory>
 #include "Input.h"
 #include "MouseCode.h"
-////////////////////////////////////////////////////////////
+#include "glm/fwd.hpp"
+#include "glm/glm.hpp"
 // Sandbox Application (Client Side)
-////////////////////////////////////////////////////////////
-
 class SandBox : public Bear::Application {
 public:
   SandBox() {
     PushLayer(new ExampleLayer());
-    Pushoverlay(new Bear::ImGuiLayer()); // PushLayer(new ImGuiLayer());
   };
   ~SandBox() override = default;
 };
-
-////////////////////////////////////////////////////////////
 // Factory Function (Called by EntryPoint.h)
-////////////////////////////////////////////////////////////
-
 namespace Bear {
 Application *CreateApplication() { return new SandBox(); }
 }
-
-////////////////////////////////////////////////////////////
 // Engine Implementation
-////////////////////////////////////////////////////////////
-
 namespace Bear {
 #define BIND_EVENT_FUNC(x)                                                     \
   std::bind(&Application::x, this, std::placeholders::_1)
@@ -52,6 +43,9 @@ Application::Application() {
   m_Window = Window::Create();
   m_Window->SetEventCallback(BIND_EVENT_FUNC(OnEvent));
   s_Instance = this;
+  m_ImguiLayer = new ImGuiLayer();
+  m_LayerStack.PushLayer(m_ImguiLayer); 
+  m_ImguiLayer->OnAttach();
 }
 
 Application::~Application() { std::cout << "Engine destroyed!" << std::endl; }
@@ -100,6 +94,11 @@ void Application::run() {
     for (Layer *layer : m_LayerStack) {
       layer->OnUpdate();
     }
+    m_ImguiLayer->Begin();
+      for (Layer *layer : m_LayerStack) {
+        layer->OnImGuiDraw();
+      }
+    m_ImguiLayer->End();
 
   }
 }

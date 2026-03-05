@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kelly/SandBox/Bear/scr/Engine.cpp" "Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o.d"
+  "/home/kelly/SandBox/Bear/scr/ImGui/ImGuiBuild.cpp" "Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/ImGui/ImGuiLayer.cpp" "Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/Input/Input.cpp" "Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/Layers/Layer.cpp" "Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o.d"

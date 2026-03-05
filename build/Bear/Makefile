@@ -154,6 +154,30 @@ scr/Engine.cpp.s:
 	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.s
 .PHONY : scr/Engine.cpp.s
 
+scr/ImGui/ImGuiBuild.o: scr/ImGui/ImGuiBuild.cpp.o
+.PHONY : scr/ImGui/ImGuiBuild.o
+
+# target to build an object file
+scr/ImGui/ImGuiBuild.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o
+.PHONY : scr/ImGui/ImGuiBuild.cpp.o
+
+scr/ImGui/ImGuiBuild.i: scr/ImGui/ImGuiBuild.cpp.i
+.PHONY : scr/ImGui/ImGuiBuild.i
+
+# target to preprocess a source file
+scr/ImGui/ImGuiBuild.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.i
+.PHONY : scr/ImGui/ImGuiBuild.cpp.i
+
+scr/ImGui/ImGuiBuild.s: scr/ImGui/ImGuiBuild.cpp.s
+.PHONY : scr/ImGui/ImGuiBuild.s
+
+# target to generate assembly for a file
+scr/ImGui/ImGuiBuild.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.s
+.PHONY : scr/ImGui/ImGuiBuild.cpp.s
+
 scr/ImGui/ImGuiLayer.o: scr/ImGui/ImGuiLayer.cpp.o
 .PHONY : scr/ImGui/ImGuiLayer.o
 
@@ -358,6 +382,9 @@ help:
 	@echo "... scr/Engine.o"
 	@echo "... scr/Engine.i"
 	@echo "... scr/Engine.s"
+	@echo "... scr/ImGui/ImGuiBuild.o"
+	@echo "... scr/ImGui/ImGuiBuild.i"
+	@echo "... scr/ImGui/ImGuiBuild.s"
 	@echo "... scr/ImGui/ImGuiLayer.o"
 	@echo "... scr/ImGui/ImGuiLayer.i"
 	@echo "... scr/ImGui/ImGuiLayer.s"

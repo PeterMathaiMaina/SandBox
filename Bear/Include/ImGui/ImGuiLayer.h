@@ -9,21 +9,16 @@ class ImGuiLayer : public Layer {
 public:
   ImGuiLayer();
   ~ImGuiLayer();
-  void OnDetach() override;
-  void OnAttach() override;
-  void OnUpdate() override;
-  void OnEvent(Event &e) override;
-
-private:
-  bool OnMousePressed(MouseButtonPressedEvent &event);
-  bool OnMouseReleased(MouseButtonReleasedEvent &event);
-  bool OnMouseMoved(MouseMovedEvent &event);
-  bool OnMouseScrolled(MouseScrolledEvent &event);
-  bool OnKeyPressed(KeyPressedEvent &event);
-  bool OnKeyRelease(KeyReleasedEvent &event);
-  bool OnKeyTyped(KeyTypedEvent &event);
-
+  virtual void OnDetach() override;
+  virtual void OnAttach() override;
+  virtual void OnImGuiDraw() override;
+  virtual void OnEvent(Event& e) override;
+  virtual void Begin();
+  virtual void End();
+  void SetDarkThemeColors();
 private:
   float m_time = 0.0f;
+  bool m_blockEvents;
+  bool m_showdemo = true;
 };
 } // namespace Bear

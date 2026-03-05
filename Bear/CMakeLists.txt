@@ -33,6 +33,7 @@ add_library(Bear SHARED
     scr/Layers/Layer.cpp
     scr/Layers/LayerStack.cpp
     scr/ImGui/ImGuiLayer.cpp
+    scr/ImGui/ImGuiBuild.cpp
     scr/Input/Input.cpp
 
 )
@@ -43,6 +44,7 @@ target_include_directories(Bear
         ${CMAKE_CURRENT_SOURCE_DIR}/Include
         ${CMAKE_CURRENT_SOURCE_DIR}/Include/Events
         ${GLFW_INCLUDE_DIRS}
+        
 )
 
 
@@ -53,4 +55,5 @@ target_link_libraries(Bear
         glfw
         OpenGL::GL
         GLEW::GLEW
+        glm
 )

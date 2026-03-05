@@ -16,6 +16,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
+  "/home/kelly/SandBox/glm/CMakeLists.txt"
+  "/home/kelly/SandBox/glm/glm/CMakeLists.txt"
   "/home/kelly/SandBox/imgui/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/assimp-5.3/assimpConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/assimp-5.3/assimpConfigVersion.cmake"
@@ -72,6 +74,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Bear/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Bear/vendor/spdlog/CMakeFiles/CMakeDirectoryInformation.cmake"
   "SandBox/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "glm/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "glm/glm/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -80,4 +84,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "Bear/CMakeFiles/Bear.dir/DependInfo.cmake"
   "Bear/vendor/spdlog/CMakeFiles/spdlog.dir/DependInfo.cmake"
   "SandBox/CMakeFiles/SandBox.dir/DependInfo.cmake"
+  "glm/glm/CMakeFiles/glm.dir/DependInfo.cmake"
   )

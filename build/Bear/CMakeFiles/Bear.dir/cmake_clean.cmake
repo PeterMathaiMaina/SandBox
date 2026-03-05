@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Bear.dir/scr/Engine.cpp.o"
   "CMakeFiles/Bear.dir/scr/Engine.cpp.o.d"
+  "CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o"
+  "CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o.d"
   "CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o"
   "CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o.d"
   "CMakeFiles/Bear.dir/scr/Input/Input.cpp.o"
