@@ -253,8 +253,10 @@ Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o: \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/version.h \
  /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h \
+ /home/kelly/SandBox/Bear/Include/Renderer/GraphicsContext.h \
  /home/kelly/SandBox/Bear/Include/Events/ApplicationEvents.h \
  /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h \
  /home/kelly/SandBox/Bear/Include/Events/MouseCode.h \
  /home/kelly/SandBox/Bear/Include/Events/MouseEvent.h \
- /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h
+ /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h \
+ /home/kelly/SandBox/Bear/Include/Platforms/OpenGL/OpenGLContext.h

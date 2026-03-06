@@ -7,4 +7,5 @@ public:
   void OnUpdate() override;
   void OnEvent(Bear::Event &e) override;
   bool IfOverlay() const;
+  virtual void OnImGuiDraw() override;
 };

@@ -2,6 +2,7 @@
 #include "../Window.h"
 #include <string>
 #include <GLFW/glfw3.h>
+#include "Renderer/GraphicsContext.h"
 
 namespace Bear{
 class LinuxWindow : public Window{
@@ -39,5 +40,6 @@ private:
         EventCallBackFn EventCallBack;
     };
     WindowData m_Data;
+    GraphicsContext* m_context;
 };
 };

@@ -130,6 +130,30 @@ Bear/fast:
 	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/build
 .PHONY : Bear/fast
 
+Include/Platforms/OpenGL/OpenGLContext.o: Include/Platforms/OpenGL/OpenGLContext.cpp.o
+.PHONY : Include/Platforms/OpenGL/OpenGLContext.o
+
+# target to build an object file
+Include/Platforms/OpenGL/OpenGLContext.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o
+.PHONY : Include/Platforms/OpenGL/OpenGLContext.cpp.o
+
+Include/Platforms/OpenGL/OpenGLContext.i: Include/Platforms/OpenGL/OpenGLContext.cpp.i
+.PHONY : Include/Platforms/OpenGL/OpenGLContext.i
+
+# target to preprocess a source file
+Include/Platforms/OpenGL/OpenGLContext.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.i
+.PHONY : Include/Platforms/OpenGL/OpenGLContext.cpp.i
+
+Include/Platforms/OpenGL/OpenGLContext.s: Include/Platforms/OpenGL/OpenGLContext.cpp.s
+.PHONY : Include/Platforms/OpenGL/OpenGLContext.s
+
+# target to generate assembly for a file
+Include/Platforms/OpenGL/OpenGLContext.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.s
+.PHONY : Include/Platforms/OpenGL/OpenGLContext.cpp.s
+
 scr/Engine.o: scr/Engine.cpp.o
 .PHONY : scr/Engine.o
 
@@ -379,6 +403,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Bear"
+	@echo "... Include/Platforms/OpenGL/OpenGLContext.o"
+	@echo "... Include/Platforms/OpenGL/OpenGLContext.i"
+	@echo "... Include/Platforms/OpenGL/OpenGLContext.s"
 	@echo "... scr/Engine.o"
 	@echo "... scr/Engine.i"
 	@echo "... scr/Engine.s"

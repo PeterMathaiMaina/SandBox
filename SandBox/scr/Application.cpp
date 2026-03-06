@@ -77,9 +77,6 @@ void Application::Pushoverlay(Layer *overlay) {
   overlay->OnAttach();
   m_LayerStack.PushOverlay(overlay);
 }
-
-
-
 void Application::run() {
   std::cout << "Engine running!" << std::endl;
 
@@ -87,7 +84,6 @@ void Application::run() {
 
   KeyPressedEvent e(static_cast<KeyCode>(keycode), false);
 
-  float frame_time = 0.0f;
 
   while (m_running) {
     m_Window->OnUpdate();

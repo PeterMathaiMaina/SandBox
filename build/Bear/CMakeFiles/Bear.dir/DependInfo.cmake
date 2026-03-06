@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kelly/SandBox/Bear/Include/Platforms/OpenGL/OpenGLContext.cpp" "Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/Engine.cpp" "Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/ImGui/ImGuiBuild.cpp" "Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/ImGui/ImGuiLayer.cpp" "Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o.d"

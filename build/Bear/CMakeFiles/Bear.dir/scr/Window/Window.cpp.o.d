@@ -252,4 +252,6 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/version.h \
  /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
- /usr/include/KHR/khrplatform.h /usr/include/c++/13/iostream
+ /usr/include/KHR/khrplatform.h \
+ /home/kelly/SandBox/Bear/Include/Renderer/GraphicsContext.h \
+ /usr/include/c++/13/iostream

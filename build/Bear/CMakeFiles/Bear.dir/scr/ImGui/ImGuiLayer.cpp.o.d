@@ -265,5 +265,6 @@ Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o: \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/version.h \
  /home/kelly/SandBox/Bear/Include/Platforms/Linux/Lin_Windows.h \
  /home/kelly/SandBox/Bear/Include/Events/../Window.h \
+ /home/kelly/SandBox/Bear/Include/Renderer/GraphicsContext.h \
  /home/kelly/SandBox/Bear/Include/Layers/LayerStack.h \
  /usr/include/c++/13/iostream

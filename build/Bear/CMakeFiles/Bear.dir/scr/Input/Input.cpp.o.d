@@ -258,6 +258,7 @@ Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o: \
  /home/kelly/SandBox/Bear/Include/Layers/Layer.h \
  /home/kelly/SandBox/Bear/Include/Events/MouseEvent.h \
  /home/kelly/SandBox/Bear/Include/Platforms/Linux/Lin_Windows.h \
+ /home/kelly/SandBox/Bear/Include/Renderer/GraphicsContext.h \
  /home/kelly/SandBox/Bear/Include/Layers/LayerStack.h \
  /home/kelly/SandBox/imgui/backends/imgui_impl_glfw.h \
  /home/kelly/SandBox/imgui/imgui.h /home/kelly/SandBox/imgui/imconfig.h \

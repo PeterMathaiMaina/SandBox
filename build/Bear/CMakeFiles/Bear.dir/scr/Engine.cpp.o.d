@@ -260,6 +260,7 @@ Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o: \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/version.h \
  /home/kelly/SandBox/Bear/scr/../Include/Platforms/Linux/Lin_Windows.h \
  /home/kelly/SandBox/Bear/Include/Events/../Window.h \
+ /home/kelly/SandBox/Bear/Include/Renderer/GraphicsContext.h \
  /home/kelly/SandBox/Bear/scr/../Include/Layers/LayerStack.h \
  /home/kelly/SandBox/imgui/backends/imgui_impl_glfw.h \
  /home/kelly/SandBox/imgui/imgui.h /home/kelly/SandBox/imgui/imconfig.h \

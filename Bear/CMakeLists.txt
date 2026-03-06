@@ -35,7 +35,7 @@ add_library(Bear SHARED
     scr/ImGui/ImGuiLayer.cpp
     scr/ImGui/ImGuiBuild.cpp
     scr/Input/Input.cpp
-
+    Include/Platforms/OpenGL/OpenGLContext.cpp
 )
 add_subdirectory(vendor/spdlog)
 

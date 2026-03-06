@@ -8,6 +8,8 @@
 #include "MouseCode.h"
 #include "MouseEvent.h"
 #include "KeyEvents.h"
+#include "Platforms/OpenGL/OpenGLContext.h"
+#include "Renderer/GraphicsContext.h"
 
 namespace Bear{
 static uint8_t s_GLFWwindowcount  = 0;
@@ -38,11 +40,14 @@ void LinuxWindow::Init(const WindowProps& props){
         }
         glfwSetErrorCallback(GLFWErrorCallBack);
     }
-    
 
     m_Window =glfwCreateWindow(props.Width,props.Height,props.Title.c_str(),nullptr,nullptr);
-    glfwMakeContextCurrent(m_Window);
+
+    m_context = new OpenGLContext(m_Window);
+    m_context->Init(); 
+
     glfwSetWindowUserPointer(m_Window,&m_Data);
+
     SetVsync(true);
 
 
@@ -154,6 +159,7 @@ LinuxWindow::~LinuxWindow(){
 }
  void LinuxWindow::OnUpdate(){
     glfwPollEvents();
+    m_context->SwapBuffers();
     glfwSwapBuffers(m_Window);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }

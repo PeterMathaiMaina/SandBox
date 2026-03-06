@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o"
+  "CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o.d"
   "CMakeFiles/Bear.dir/scr/Engine.cpp.o"
   "CMakeFiles/Bear.dir/scr/Engine.cpp.o.d"
   "CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o"
