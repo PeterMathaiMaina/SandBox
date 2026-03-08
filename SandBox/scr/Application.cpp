@@ -2,7 +2,9 @@
 #include "Engine.h"
 #include "EntryPoint.h"
 #include "Event.h"
+
 #include "ExampleLayer.h"
+#include "Headers.h"
 #include "ImGui/ImGuiLayer.h"
 #include "KeyCodes.h"
 #include "Layers/Layer.h"
@@ -10,7 +12,7 @@
 #include "Log.h"
 #include "MouseCode.h"
 #include "Window.h"
-#include <GLFW/glfw3.h>
+#include <GL/glext.h>
 #include <cstddef>
 #include <glm/ext/matrix_float4x4.hpp>
 #include <iostream>
@@ -48,6 +50,7 @@ Application::Application() {
   m_ImguiLayer->OnAttach();
 }
 
+
 Application::~Application() { std::cout << "Engine destroyed!" << std::endl; }
 
 void Application::init() { std::cout << "Engine initialized!" << std::endl; }
@@ -83,6 +86,21 @@ void Application::run() {
   int keycode = 1;
 
   KeyPressedEvent e(static_cast<KeyCode>(keycode), false);
+  float vertices[] = {
+      -0.5f,-0.5f,0.0f,
+       0.5f,-0.5f,0.0f,
+       0.0f, 0.5f,0.0f
+  };
+
+  glGenVertexArrays(1, &m_VertexArray);
+  glBindVertexArray(m_VertexArray);
+
+  glGenBuffers(1, &m_VertexBuffer);
+  glBindBuffer(GL_ARRAY_BUFFER, m_VertexBuffer);
+  glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+
+  glEnableVertexAttribArray(0);
+  glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), nullptr);
 
 
   while (m_running) {
@@ -95,7 +113,6 @@ void Application::run() {
         layer->OnImGuiDraw();
       }
     m_ImguiLayer->End();
-
   }
 }
 bool Application::OnWindowClose(WindowCloseEvent &e) {

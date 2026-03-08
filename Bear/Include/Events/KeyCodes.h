@@ -1,9 +1,8 @@
 #pragma once
-
+#include "Headers.h"
 
 
 #include <cstdint>
-#include <GLFW/glfw3.h>
 
 enum class KeyCode : uint16_t
 {

@@ -251,7 +251,7 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: \
  /usr/include/c++/13/bits/this_thread_sleep.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
  /home/kelly/SandBox/Bear/vendor/spdlog/include/spdlog/version.h \
- /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
- /usr/include/KHR/khrplatform.h \
+ /home/kelly/SandBox/Bear/Include/Headers.h /usr/include/GL/glew.h \
+ /usr/include/GL/glu.h /usr/include/GL/gl.h /usr/include/GLFW/glfw3.h \
  /home/kelly/SandBox/Bear/Include/Renderer/GraphicsContext.h \
  /usr/include/c++/13/iostream

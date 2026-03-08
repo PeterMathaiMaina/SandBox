@@ -1,7 +1,7 @@
 #pragma once 
 #include "../Window.h"
 #include <string>
-#include <GLFW/glfw3.h>
+#include "Headers.h"
 #include "Renderer/GraphicsContext.h"
 
 namespace Bear{

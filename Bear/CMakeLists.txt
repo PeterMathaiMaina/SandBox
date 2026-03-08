@@ -28,6 +28,9 @@ add_library(Bear SHARED
     scr/Engine.cpp
     Include/Engine.h
     scr/Renderer/GraphicsContext.cpp
+    scr/Renderer/Buffer.cpp
+    Include/Renderer/Shader/Shader.cpp
+    Include/Renderer/Shader/OpenGLShader.cpp
     scr/Platforms/Linux/Lin_Windows.cpp
     scr/Window/Window.cpp
     scr/Layers/Layer.cpp
@@ -36,6 +39,7 @@ add_library(Bear SHARED
     scr/ImGui/ImGuiBuild.cpp
     scr/Input/Input.cpp
     Include/Platforms/OpenGL/OpenGLContext.cpp
+    Include/Platforms/OpenGL/OpenGLBuffer.cpp
 )
 add_subdirectory(vendor/spdlog)
 

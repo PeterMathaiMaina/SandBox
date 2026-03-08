@@ -1,5 +1,4 @@
 #pragma once
-
 #include "Events/ApplicationEvents.h"
 #include "Event.h"
 #include "ImGui/ImGuiLayer.h"
@@ -33,6 +32,7 @@ public:
     void Pushoverlay(Layer* overlay);
     bool OnWindowClose(WindowCloseEvent& e);
 private:
+    unsigned int m_VertexArray,m_VertexBuffer,m_IndexBuffer;
     std::unique_ptr<Window> m_Window; // okay with forward-declared Window if destructor out-of-line
     ImGuiLayer* m_ImguiLayer;
     LayerStack m_LayerStack;

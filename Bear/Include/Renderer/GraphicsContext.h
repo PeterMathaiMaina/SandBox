@@ -1,6 +1,5 @@
 #pragma  once 
 
-
 namespace Bear{
 class GraphicsContext{
 public:

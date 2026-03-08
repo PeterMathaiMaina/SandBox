@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kelly/SandBox/Bear/Include/Platforms/OpenGL/OpenGLBuffer.cpp" "Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.o.d"
   "/home/kelly/SandBox/Bear/Include/Platforms/OpenGL/OpenGLContext.cpp" "Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o.d"
+  "/home/kelly/SandBox/Bear/Include/Renderer/Shader/OpenGLShader.cpp" "Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.o.d"
+  "/home/kelly/SandBox/Bear/Include/Renderer/Shader/Shader.cpp" "Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/Engine.cpp" "Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/ImGui/ImGuiBuild.cpp" "Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/ImGui/ImGuiLayer.cpp" "Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o.d"
@@ -16,6 +19,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kelly/SandBox/Bear/scr/Layers/Layer.cpp" "Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/Layers/LayerStack.cpp" "Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/Platforms/Linux/Lin_Windows.cpp" "Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o.d"
+  "/home/kelly/SandBox/Bear/scr/Renderer/Buffer.cpp" "Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/Renderer/GraphicsContext.cpp" "Bear/CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/Utils/Log.cpp" "Bear/CMakeFiles/Bear.dir/scr/Utils/Log.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Utils/Log.cpp.o.d"
   "/home/kelly/SandBox/Bear/scr/Window/Window.cpp" "Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o" "gcc" "Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o.d"

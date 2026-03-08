@@ -14,9 +14,9 @@ Log::~Log(){
 
 
 }
-void Log::Init(){
-    spdlog::set_pattern("[%Y-%m-%d %H:%M:%S.%e] [%^%l%$] [%n] %v");
-
+void Log::Init()
+{
+    spdlog::set_pattern("%^%n [%l]: %v%$");
 
     auto console_sink_client = std::make_shared<spdlog::sinks::stdout_color_sink_mt>();
     auto console_sink_core   = std::make_shared<spdlog::sinks::stdout_color_sink_mt>();

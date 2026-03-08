@@ -3,7 +3,6 @@
 #include "GLFW/glfw3.h"
 #include "KeyCodes.h"
 #include "Log.h"
-#include <GL/gl.h>
 #include <cstdint>
 #include "MouseCode.h"
 #include "MouseEvent.h"

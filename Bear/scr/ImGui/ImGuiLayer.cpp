@@ -4,7 +4,6 @@
 #include "backends/imgui_impl_glfw.h"
 #include "Base.h"
 #include "Engine.h"
-#include <GLFW/glfw3.h>
 #include <imgui.h>
 namespace Bear {
 

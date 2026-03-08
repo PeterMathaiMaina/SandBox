@@ -130,6 +130,30 @@ Bear/fast:
 	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/build
 .PHONY : Bear/fast
 
+Include/Platforms/OpenGL/OpenGLBuffer.o: Include/Platforms/OpenGL/OpenGLBuffer.cpp.o
+.PHONY : Include/Platforms/OpenGL/OpenGLBuffer.o
+
+# target to build an object file
+Include/Platforms/OpenGL/OpenGLBuffer.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.o
+.PHONY : Include/Platforms/OpenGL/OpenGLBuffer.cpp.o
+
+Include/Platforms/OpenGL/OpenGLBuffer.i: Include/Platforms/OpenGL/OpenGLBuffer.cpp.i
+.PHONY : Include/Platforms/OpenGL/OpenGLBuffer.i
+
+# target to preprocess a source file
+Include/Platforms/OpenGL/OpenGLBuffer.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.i
+.PHONY : Include/Platforms/OpenGL/OpenGLBuffer.cpp.i
+
+Include/Platforms/OpenGL/OpenGLBuffer.s: Include/Platforms/OpenGL/OpenGLBuffer.cpp.s
+.PHONY : Include/Platforms/OpenGL/OpenGLBuffer.s
+
+# target to generate assembly for a file
+Include/Platforms/OpenGL/OpenGLBuffer.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.s
+.PHONY : Include/Platforms/OpenGL/OpenGLBuffer.cpp.s
+
 Include/Platforms/OpenGL/OpenGLContext.o: Include/Platforms/OpenGL/OpenGLContext.cpp.o
 .PHONY : Include/Platforms/OpenGL/OpenGLContext.o
 
@@ -153,6 +177,54 @@ Include/Platforms/OpenGL/OpenGLContext.s: Include/Platforms/OpenGL/OpenGLContext
 Include/Platforms/OpenGL/OpenGLContext.cpp.s:
 	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.s
 .PHONY : Include/Platforms/OpenGL/OpenGLContext.cpp.s
+
+Include/Renderer/Shader/OpenGLShader.o: Include/Renderer/Shader/OpenGLShader.cpp.o
+.PHONY : Include/Renderer/Shader/OpenGLShader.o
+
+# target to build an object file
+Include/Renderer/Shader/OpenGLShader.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.o
+.PHONY : Include/Renderer/Shader/OpenGLShader.cpp.o
+
+Include/Renderer/Shader/OpenGLShader.i: Include/Renderer/Shader/OpenGLShader.cpp.i
+.PHONY : Include/Renderer/Shader/OpenGLShader.i
+
+# target to preprocess a source file
+Include/Renderer/Shader/OpenGLShader.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.i
+.PHONY : Include/Renderer/Shader/OpenGLShader.cpp.i
+
+Include/Renderer/Shader/OpenGLShader.s: Include/Renderer/Shader/OpenGLShader.cpp.s
+.PHONY : Include/Renderer/Shader/OpenGLShader.s
+
+# target to generate assembly for a file
+Include/Renderer/Shader/OpenGLShader.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.s
+.PHONY : Include/Renderer/Shader/OpenGLShader.cpp.s
+
+Include/Renderer/Shader/Shader.o: Include/Renderer/Shader/Shader.cpp.o
+.PHONY : Include/Renderer/Shader/Shader.o
+
+# target to build an object file
+Include/Renderer/Shader/Shader.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.o
+.PHONY : Include/Renderer/Shader/Shader.cpp.o
+
+Include/Renderer/Shader/Shader.i: Include/Renderer/Shader/Shader.cpp.i
+.PHONY : Include/Renderer/Shader/Shader.i
+
+# target to preprocess a source file
+Include/Renderer/Shader/Shader.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.i
+.PHONY : Include/Renderer/Shader/Shader.cpp.i
+
+Include/Renderer/Shader/Shader.s: Include/Renderer/Shader/Shader.cpp.s
+.PHONY : Include/Renderer/Shader/Shader.s
+
+# target to generate assembly for a file
+Include/Renderer/Shader/Shader.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.s
+.PHONY : Include/Renderer/Shader/Shader.cpp.s
 
 scr/Engine.o: scr/Engine.cpp.o
 .PHONY : scr/Engine.o
@@ -322,6 +394,30 @@ scr/Platforms/Linux/Lin_Windows.cpp.s:
 	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.s
 .PHONY : scr/Platforms/Linux/Lin_Windows.cpp.s
 
+scr/Renderer/Buffer.o: scr/Renderer/Buffer.cpp.o
+.PHONY : scr/Renderer/Buffer.o
+
+# target to build an object file
+scr/Renderer/Buffer.cpp.o:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.o
+.PHONY : scr/Renderer/Buffer.cpp.o
+
+scr/Renderer/Buffer.i: scr/Renderer/Buffer.cpp.i
+.PHONY : scr/Renderer/Buffer.i
+
+# target to preprocess a source file
+scr/Renderer/Buffer.cpp.i:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.i
+.PHONY : scr/Renderer/Buffer.cpp.i
+
+scr/Renderer/Buffer.s: scr/Renderer/Buffer.cpp.s
+.PHONY : scr/Renderer/Buffer.s
+
+# target to generate assembly for a file
+scr/Renderer/Buffer.cpp.s:
+	cd /home/kelly/SandBox/build && $(MAKE) $(MAKESILENT) -f Bear/CMakeFiles/Bear.dir/build.make Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.s
+.PHONY : scr/Renderer/Buffer.cpp.s
+
 scr/Renderer/GraphicsContext.o: scr/Renderer/GraphicsContext.cpp.o
 .PHONY : scr/Renderer/GraphicsContext.o
 
@@ -403,9 +499,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Bear"
+	@echo "... Include/Platforms/OpenGL/OpenGLBuffer.o"
+	@echo "... Include/Platforms/OpenGL/OpenGLBuffer.i"
+	@echo "... Include/Platforms/OpenGL/OpenGLBuffer.s"
 	@echo "... Include/Platforms/OpenGL/OpenGLContext.o"
 	@echo "... Include/Platforms/OpenGL/OpenGLContext.i"
 	@echo "... Include/Platforms/OpenGL/OpenGLContext.s"
+	@echo "... Include/Renderer/Shader/OpenGLShader.o"
+	@echo "... Include/Renderer/Shader/OpenGLShader.i"
+	@echo "... Include/Renderer/Shader/OpenGLShader.s"
+	@echo "... Include/Renderer/Shader/Shader.o"
+	@echo "... Include/Renderer/Shader/Shader.i"
+	@echo "... Include/Renderer/Shader/Shader.s"
 	@echo "... scr/Engine.o"
 	@echo "... scr/Engine.i"
 	@echo "... scr/Engine.s"
@@ -427,6 +532,9 @@ help:
 	@echo "... scr/Platforms/Linux/Lin_Windows.o"
 	@echo "... scr/Platforms/Linux/Lin_Windows.i"
 	@echo "... scr/Platforms/Linux/Lin_Windows.s"
+	@echo "... scr/Renderer/Buffer.o"
+	@echo "... scr/Renderer/Buffer.i"
+	@echo "... scr/Renderer/Buffer.s"
 	@echo "... scr/Renderer/GraphicsContext.o"
 	@echo "... scr/Renderer/GraphicsContext.i"
 	@echo "... scr/Renderer/GraphicsContext.s"

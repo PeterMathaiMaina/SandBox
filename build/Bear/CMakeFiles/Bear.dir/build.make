@@ -111,10 +111,52 @@ Bear/CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.s"
 	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelly/SandBox/Bear/scr/Renderer/GraphicsContext.cpp -o CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.s
 
+Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.o: Bear/CMakeFiles/Bear.dir/flags.make
+Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.o: /home/kelly/SandBox/Bear/scr/Renderer/Buffer.cpp
+Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.o: Bear/CMakeFiles/Bear.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.o"
+	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.o -MF CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.o.d -o CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.o -c /home/kelly/SandBox/Bear/scr/Renderer/Buffer.cpp
+
+Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.i"
+	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelly/SandBox/Bear/scr/Renderer/Buffer.cpp > CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.i
+
+Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.s"
+	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelly/SandBox/Bear/scr/Renderer/Buffer.cpp -o CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.s
+
+Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.o: Bear/CMakeFiles/Bear.dir/flags.make
+Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.o: /home/kelly/SandBox/Bear/Include/Renderer/Shader/Shader.cpp
+Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.o: Bear/CMakeFiles/Bear.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.o"
+	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.o -MF CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.o.d -o CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.o -c /home/kelly/SandBox/Bear/Include/Renderer/Shader/Shader.cpp
+
+Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.i"
+	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelly/SandBox/Bear/Include/Renderer/Shader/Shader.cpp > CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.i
+
+Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.s"
+	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelly/SandBox/Bear/Include/Renderer/Shader/Shader.cpp -o CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.s
+
+Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.o: Bear/CMakeFiles/Bear.dir/flags.make
+Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.o: /home/kelly/SandBox/Bear/Include/Renderer/Shader/OpenGLShader.cpp
+Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.o: Bear/CMakeFiles/Bear.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.o"
+	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.o -MF CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.o.d -o CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.o -c /home/kelly/SandBox/Bear/Include/Renderer/Shader/OpenGLShader.cpp
+
+Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.i"
+	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelly/SandBox/Bear/Include/Renderer/Shader/OpenGLShader.cpp > CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.i
+
+Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.s"
+	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelly/SandBox/Bear/Include/Renderer/Shader/OpenGLShader.cpp -o CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.s
+
 Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o: Bear/CMakeFiles/Bear.dir/flags.make
 Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o: /home/kelly/SandBox/Bear/scr/Platforms/Linux/Lin_Windows.cpp
 Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o: Bear/CMakeFiles/Bear.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o"
 	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o -MF CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o.d -o CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o -c /home/kelly/SandBox/Bear/scr/Platforms/Linux/Lin_Windows.cpp
 
 Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.i: cmake_force
@@ -128,7 +170,7 @@ Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.s: cmake_force
 Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: Bear/CMakeFiles/Bear.dir/flags.make
 Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: /home/kelly/SandBox/Bear/scr/Window/Window.cpp
 Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o: Bear/CMakeFiles/Bear.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o"
 	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o -MF CMakeFiles/Bear.dir/scr/Window/Window.cpp.o.d -o CMakeFiles/Bear.dir/scr/Window/Window.cpp.o -c /home/kelly/SandBox/Bear/scr/Window/Window.cpp
 
 Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.i: cmake_force
@@ -142,7 +184,7 @@ Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.s: cmake_force
 Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o: Bear/CMakeFiles/Bear.dir/flags.make
 Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o: /home/kelly/SandBox/Bear/scr/Layers/Layer.cpp
 Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o: Bear/CMakeFiles/Bear.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o"
 	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o -MF CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o.d -o CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o -c /home/kelly/SandBox/Bear/scr/Layers/Layer.cpp
 
 Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.i: cmake_force
@@ -156,7 +198,7 @@ Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.s: cmake_force
 Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o: Bear/CMakeFiles/Bear.dir/flags.make
 Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o: /home/kelly/SandBox/Bear/scr/Layers/LayerStack.cpp
 Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o: Bear/CMakeFiles/Bear.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o"
 	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o -MF CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o.d -o CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.o -c /home/kelly/SandBox/Bear/scr/Layers/LayerStack.cpp
 
 Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.i: cmake_force
@@ -170,7 +212,7 @@ Bear/CMakeFiles/Bear.dir/scr/Layers/LayerStack.cpp.s: cmake_force
 Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o: Bear/CMakeFiles/Bear.dir/flags.make
 Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o: /home/kelly/SandBox/Bear/scr/ImGui/ImGuiLayer.cpp
 Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o: Bear/CMakeFiles/Bear.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o"
 	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o -MF CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o.d -o CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o -c /home/kelly/SandBox/Bear/scr/ImGui/ImGuiLayer.cpp
 
 Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.i: cmake_force
@@ -184,7 +226,7 @@ Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.s: cmake_force
 Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o: Bear/CMakeFiles/Bear.dir/flags.make
 Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o: /home/kelly/SandBox/Bear/scr/ImGui/ImGuiBuild.cpp
 Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o: Bear/CMakeFiles/Bear.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o"
 	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o -MF CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o.d -o CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o -c /home/kelly/SandBox/Bear/scr/ImGui/ImGuiBuild.cpp
 
 Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.i: cmake_force
@@ -198,7 +240,7 @@ Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.s: cmake_force
 Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o: Bear/CMakeFiles/Bear.dir/flags.make
 Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o: /home/kelly/SandBox/Bear/scr/Input/Input.cpp
 Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o: Bear/CMakeFiles/Bear.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o"
 	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o -MF CMakeFiles/Bear.dir/scr/Input/Input.cpp.o.d -o CMakeFiles/Bear.dir/scr/Input/Input.cpp.o -c /home/kelly/SandBox/Bear/scr/Input/Input.cpp
 
 Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.i: cmake_force
@@ -212,7 +254,7 @@ Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.s: cmake_force
 Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o: Bear/CMakeFiles/Bear.dir/flags.make
 Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o: /home/kelly/SandBox/Bear/Include/Platforms/OpenGL/OpenGLContext.cpp
 Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o: Bear/CMakeFiles/Bear.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o"
 	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o -MF CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o.d -o CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o -c /home/kelly/SandBox/Bear/Include/Platforms/OpenGL/OpenGLContext.cpp
 
 Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.i: cmake_force
@@ -223,11 +265,28 @@ Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.s"
 	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelly/SandBox/Bear/Include/Platforms/OpenGL/OpenGLContext.cpp -o CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.s
 
+Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.o: Bear/CMakeFiles/Bear.dir/flags.make
+Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.o: /home/kelly/SandBox/Bear/Include/Platforms/OpenGL/OpenGLBuffer.cpp
+Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.o: Bear/CMakeFiles/Bear.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.o"
+	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.o -MF CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.o.d -o CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.o -c /home/kelly/SandBox/Bear/Include/Platforms/OpenGL/OpenGLBuffer.cpp
+
+Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.i"
+	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelly/SandBox/Bear/Include/Platforms/OpenGL/OpenGLBuffer.cpp > CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.i
+
+Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.s"
+	cd /home/kelly/SandBox/build/Bear && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelly/SandBox/Bear/Include/Platforms/OpenGL/OpenGLBuffer.cpp -o CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.s
+
 # Object files for target Bear
 Bear_OBJECTS = \
 "CMakeFiles/Bear.dir/scr/Utils/Log.cpp.o" \
 "CMakeFiles/Bear.dir/scr/Engine.cpp.o" \
 "CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.o" \
+"CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.o" \
+"CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.o" \
+"CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.o" \
 "CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o" \
 "CMakeFiles/Bear.dir/scr/Window/Window.cpp.o" \
 "CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o" \
@@ -235,7 +294,8 @@ Bear_OBJECTS = \
 "CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o" \
 "CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o" \
 "CMakeFiles/Bear.dir/scr/Input/Input.cpp.o" \
-"CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o"
+"CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o" \
+"CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.o"
 
 # External object files for target Bear
 Bear_EXTERNAL_OBJECTS =
@@ -243,6 +303,9 @@ Bear_EXTERNAL_OBJECTS =
 Bear/libBear.so: Bear/CMakeFiles/Bear.dir/scr/Utils/Log.cpp.o
 Bear/libBear.so: Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o
 Bear/libBear.so: Bear/CMakeFiles/Bear.dir/scr/Renderer/GraphicsContext.cpp.o
+Bear/libBear.so: Bear/CMakeFiles/Bear.dir/scr/Renderer/Buffer.cpp.o
+Bear/libBear.so: Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/Shader.cpp.o
+Bear/libBear.so: Bear/CMakeFiles/Bear.dir/Include/Renderer/Shader/OpenGLShader.cpp.o
 Bear/libBear.so: Bear/CMakeFiles/Bear.dir/scr/Platforms/Linux/Lin_Windows.cpp.o
 Bear/libBear.so: Bear/CMakeFiles/Bear.dir/scr/Window/Window.cpp.o
 Bear/libBear.so: Bear/CMakeFiles/Bear.dir/scr/Layers/Layer.cpp.o
@@ -251,6 +314,7 @@ Bear/libBear.so: Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiLayer.cpp.o
 Bear/libBear.so: Bear/CMakeFiles/Bear.dir/scr/ImGui/ImGuiBuild.cpp.o
 Bear/libBear.so: Bear/CMakeFiles/Bear.dir/scr/Input/Input.cpp.o
 Bear/libBear.so: Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLContext.cpp.o
+Bear/libBear.so: Bear/CMakeFiles/Bear.dir/Include/Platforms/OpenGL/OpenGLBuffer.cpp.o
 Bear/libBear.so: Bear/CMakeFiles/Bear.dir/build.make
 Bear/libBear.so: imgui/libimgui.a
 Bear/libBear.so: Bear/vendor/spdlog/libspdlogd.so.1.16.0
@@ -259,7 +323,7 @@ Bear/libBear.so: /usr/lib/x86_64-linux-gnu/libGL.so
 Bear/libBear.so: /usr/lib/x86_64-linux-gnu/libGLEW.so
 Bear/libBear.so: glm/glm/libglm.a
 Bear/libBear.so: Bear/CMakeFiles/Bear.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library libBear.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kelly/SandBox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library libBear.so"
 	cd /home/kelly/SandBox/build/Bear && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Bear.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -222,8 +222,9 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: \
  /home/kelly/SandBox/SandBox/../Bear/Include/ImGui/ImGuiLayer.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Events/KeyEvents.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Events/KeyCodes.h \
- /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
- /usr/include/KHR/khrplatform.h \
+ /home/kelly/SandBox/SandBox/../Bear/Include/Headers.h \
+ /usr/include/GL/glew.h /usr/include/GL/glu.h /usr/include/GL/gl.h \
+ /usr/include/GLFW/glfw3.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Layers/Layer.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Events/MouseEvent.h \
  /home/kelly/SandBox/SandBox/../Bear/Include/Events/MouseCode.h \
@@ -303,6 +304,7 @@ SandBox/CMakeFiles/SandBox.dir/scr/Application.cpp.o: \
  /usr/include/c++/13/iostream \
  /home/kelly/SandBox/SandBox/../Bear/Include/EntryPoint.h \
  /home/kelly/SandBox/SandBox/Include/ExampleLayer.h \
+ /usr/include/GL/glext.h \
  /home/kelly/SandBox/glm/glm/ext/matrix_float4x4.hpp \
  /home/kelly/SandBox/glm/glm/ext/../detail/type_mat4x4.hpp \
  /home/kelly/SandBox/glm/glm/ext/../detail/type_vec4.hpp \

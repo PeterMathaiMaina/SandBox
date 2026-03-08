@@ -193,9 +193,9 @@ Bear/CMakeFiles/Bear.dir/scr/Engine.cpp.o: \
  /home/kelly/SandBox/Bear/scr/../Include/ImGui/ImGuiLayer.h \
  /home/kelly/SandBox/Bear/Include/Events/KeyEvents.h \
  /home/kelly/SandBox/Bear/Include/Events/KeyCodes.h \
- /usr/include/c++/13/cstdint /usr/include/GLFW/glfw3.h \
- /usr/include/GL/gl.h /usr/include/GL/glext.h \
- /usr/include/KHR/khrplatform.h \
+ /home/kelly/SandBox/Bear/Include/Headers.h /usr/include/GL/glew.h \
+ /usr/include/c++/13/cstdint /usr/include/GL/glu.h /usr/include/GL/gl.h \
+ /usr/include/GLFW/glfw3.h \
  /home/kelly/SandBox/Bear/Include/Layers/Layer.h \
  /home/kelly/SandBox/Bear/Include/Events/MouseEvent.h \
  /home/kelly/SandBox/Bear/Include/Events/MouseCode.h \
